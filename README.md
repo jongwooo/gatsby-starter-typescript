@@ -4,11 +4,26 @@
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
 </p>
+
 <h1 align="center">
   Gatsby's starter with Typescript
 </h1>
 
-The [default Gatsby starter](https://github.com/gatsbyjs/gatsby-starter-default) converted to [TypeScript](https://www.typescriptlang.org/).
+<h3 align="center">
+  ⚛️ 📄 🚀
+</h3>
+
+<h3 align="center">
+  Typescript version of the default Gatsby starter
+</h3>
+
+<p align="center">
+  The <a href="https://github.com/gatsbyjs/gatsby-starter-default">default Gatsby starter</a> converted to <a href="https://www.typescriptlang.org/">Typescript</a>
+</p>
+
+<p align="center">
+  <img alt="Gatsby Starter Typescript" src="https://gatsby-starter-typescript-bucket.s3.ap-northeast-2.amazonaws.com/assets/images/homepage.png"/>
+</p>
 
 ## 🚀 Quick start
 
@@ -21,7 +36,7 @@ The [default Gatsby starter](https://github.com/gatsbyjs/gatsby-starter-default)
     gatsby new gatsby-starter-typescript https://github.com/jongwooo/gatsby-starter-typescript
     ```
 
-1.  **Start developing.**
+2.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
@@ -30,11 +45,11 @@ The [default Gatsby starter](https://github.com/gatsbyjs/gatsby-starter-default)
     gatsby develop
     ```
 
-1.  **Open the source code and start editing!**
+3.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).
+    Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).
 
     Open the `gatsby-starter-typescript` directory in your code editor of choice and edit `src/pages/index.tsx`. Save your changes and the browser will update in real time!
 
@@ -82,6 +97,10 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 12. **`tsconfig.json`**: The presence of this file in a directory indicates that the directory is the root of a TypeScript project. This file specifies the root files and the compiler options required to compile the project.
 
 13. **`README.md`**: A text file containing useful reference information about your project.
+
+## 📝 License
+
+Licensed under the [MIT License](LICENSE).
 
 ## 💫 Deploy
 

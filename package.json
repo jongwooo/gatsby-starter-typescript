@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-typescript",
   "private": true,
-  "description": "Typescript version of the default Gatsby starter",
+  "description": "TypesSript version of the default Gatsby starter",
   "version": "0.1.0",
   "author": "Jongwoo Han <han980817@gmail.com>",
   "dependencies": {

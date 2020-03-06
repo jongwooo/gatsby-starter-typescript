@@ -1,0 +1,29 @@
+name: Deploy to Netlify
+on: [push]
+jobs:
+  deploy_source:
+    name: Build and Deploy to Netlify
+    strategy:
+      matrix:
+        node-version: [12.x]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: npm install
+        run: npm ci
+      - name: lint
+        run: npm run lint
+      - name: format
+        run: npm run format
+      - name: npm build
+        run: npm run build --if-present
+      - name: Default deploy
+        uses: jsmrcaga/action-netlify-deploy@master
+        with:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_DEPLOY_TO_PROD: true

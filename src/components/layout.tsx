@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /**
  * Layout component that queries for data
  * with Gatsby's useStaticQuery component
@@ -22,7 +23,7 @@ const Layout: React.FC = ({ children }) => {
       }
     }
   `)
-  
+
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />

@@ -28,6 +28,9 @@
   <a href="https://github.com/jongwooo/gatsby-starter-typescript/actions?query=workflow%3A%22Deploy+to+Netlify%22">
     <img alt="Deploy to Netlify Status" src="https://github.com/jongwooo/gatsby-starter-typescript/workflows/Deploy%20to%20Netlify/badge.svg">
   </a>
+  <a href="https://app.netlify.com/sites/gatsby-starter-typescript-deploy/deploys">
+    <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/bc4407ff-8f91-4a32-b047-cd86695cdb0c/deploy-status">
+  </a>
   <a href="https://github.com/jongwooo/gatsby-starter-typescript">
     <img alt="GitHub stars" src="https://img.shields.io/github/stars/jongwooo/gatsby-starter-typescript?style=social">
   </a>

@@ -22,6 +22,18 @@
 </p>
 
 <p align="center">
+  <a href="LICENSE">
+    <img alt="LICENSE" src="https://img.shields.io/github/license/jongwooo/gatsby-starter-typescript?color=blue">
+  </a>
+  <a href="https://github.com/jongwooo/gatsby-starter-typescript/actions?query=workflow%3A%22Deploy+to+Netlify%22">
+    <img alt="Deploy to Netlify Status" src="https://github.com/jongwooo/gatsby-starter-typescript/workflows/Deploy%20to%20Netlify/badge.svg">
+  </a>
+  <a href="https://github.com/jongwooo/gatsby-starter-typescript">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/jongwooo/gatsby-starter-typescript?style=social">
+  </a>
+</p>
+
+<p align="center">
   <img alt="Gatsby Starter TypeScript" src="https://gatsby-starter-typescript-bucket.s3.ap-northeast-2.amazonaws.com/assets/images/homepage.png"/>
 </p>
 

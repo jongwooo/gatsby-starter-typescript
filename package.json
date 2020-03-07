@@ -38,9 +38,9 @@
     "build": "gatsby build",
     "clean": "gatsby clean",
     "develop": "gatsby develop",
-    "format": "prettier --check \"**/*.{js,jsx,json,md,ts,tsx}\"",
+    "format": "prettier --check \"**/*.{js,jsx,json,md,ts,tsx,yml}\"",
     "lint": "eslint .",
-    "prettier": "prettier --write \"**/*.{js,jsx,json,md,ts,tsx}\"",
+    "prettier": "prettier --write \"**/*.{js,jsx,json,md,ts,tsx,yml}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"

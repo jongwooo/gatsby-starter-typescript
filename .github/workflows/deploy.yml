@@ -13,17 +13,16 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: npm install
+      - name: Run npm install
         run: npm ci
       - name: lint
         run: npm run lint
       - name: format
         run: npm run format
-      - name: npm build
-        run: npm run build --if-present
+      - name: Run npm build
+        run: npm run build
       - name: Default deploy
-        uses: jsmrcaga/action-netlify-deploy@master
+        uses: netlify/actions/cli@master
         with:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-          NETLIFY_DEPLOY_TO_PROD: true

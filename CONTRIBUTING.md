@@ -26,6 +26,10 @@ $ npm start
 $ git commit [...]
 $ git push origin [YOUR_REPOSITORY]
 
+# Before enroll pull-request
+$ npm run format
+$ npm run lint
+
 # Enroll pull-request!
 # in https://github.com/jongwooo/gatsby-starter-typescript
 ```

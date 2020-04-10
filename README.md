@@ -124,6 +124,14 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 18. **`tsconfig.json`**: The presence of this file in a directory indicates that the directory is the root of a TypeScript project. This file specifies the root files and the compiler options required to compile the project.
 
+## 🐛 Bug reporting
+
+[Issue](https://github.com/jongwooo/gatsby-starter-typescript/issues)
+
+## 🎁 Contributing
+
+[Contributing guide](gatsby-starter-typescript/CONTRIBUTING.md)
+
 ## 📝 License
 
 Licensed under the [MIT License](LICENSE).

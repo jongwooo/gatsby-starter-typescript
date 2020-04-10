@@ -1,4 +1,4 @@
-# HOW TO CONTRIBUTE
+# How To Contribute
 
 ## Issue
 

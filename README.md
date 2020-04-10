@@ -69,13 +69,15 @@
 A quick look at the top-level files and directories you'll see in a Gatsby project.
 
     .
-    ├── .github/workflows
+    ├── .github
     ├── node_modules
     ├── src
     ├── .eslintrc.js
     ├── .gitignore
     ├── .prettierignore
-    ├── .prettierrc
+    ├── .prettierrc.js
+    ├── CODE_OF_CONDUCT.md
+    ├── CONTRIBUTING.md
     ├── LICENSE
     ├── README.md
     ├── gatsby-browser.js
@@ -86,7 +88,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     ├── package.json
     └── tsconfig.json
 
-1.  **`/.github/workflows`**: This directory contains settings about Github Actions.
+1.  **`/.github`**: This directory contains settings about Github Actions and templates about issue, pull-request.
 
 2.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
 
@@ -100,23 +102,27 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 7.  **`.prettierrc.js`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
-8.  **`LICENSE`**: Gatsby's starter with TypeScript is licensed under the MIT license.
+8.  **`CODE_OF_CONDUCT.md`**: This file defines standards for how to engage in a community. It signals an inclusive environment that respects all contributions.
 
-9.  **`README.md`**: A text file containing useful reference information about your project.
+9.  **`CONTRIBUTING.md`**: This file is guidelines for repository contributors.
 
-10. **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+10. **`LICENSE`**: Gatsby's starter with TypeScript is licensed under the MIT license.
 
-11. **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+11. **`README.md`**: A text file containing useful reference information about your project.
 
-12. **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+12. **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
 
-13. **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+13. **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
 
-14. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+14. **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
-15. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+15. **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
 
-16. **`tsconfig.json`**: The presence of this file in a directory indicates that the directory is the root of a TypeScript project. This file specifies the root files and the compiler options required to compile the project.
+16. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+
+17. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+
+18. **`tsconfig.json`**: The presence of this file in a directory indicates that the directory is the root of a TypeScript project. This file specifies the root files and the compiler options required to compile the project.
 
 ## 📝 License
 

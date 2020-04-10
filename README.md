@@ -132,6 +132,10 @@ I expect everyone participating in the contributing to abide by [Code of Conduct
 
 Check out [Contributing guide](CONTRIBUTING.md) for ideas on contributing and setup steps for getting our repositories up and running on your local machine.
 
+## 🐛 Bug reporting
+
+If you found a bug in this repository, please let me know through the [Issue](https://github.com/jongwooo/gatsby-starter-typescript/issues).
+
 ## 📝 License
 
 Licensed under the [MIT License](LICENSE).

@@ -6,8 +6,6 @@ Just follow `ISSUE_TEMPLATE`. done!
 
 ## Pull Request
 
-Just follow `PULL_REQUEST_TEMPLATE`. done!
-
 ### Forked strategy
 
 This repository managed based on forked pull request strategy

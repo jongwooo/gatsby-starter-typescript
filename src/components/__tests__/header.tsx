@@ -7,7 +7,7 @@ import Header from "../header";
 describe("Header", () => {
 	it("renders correctly", () => {
 		const tree = renderer
-			.create(<Header siteTitle="Gatsby Starter TypeScript" />)
+			.create(<Header siteTitle="Default Starter" />)
 			.toJSON();
 		expect(tree).toMatchSnapshot();
 	});

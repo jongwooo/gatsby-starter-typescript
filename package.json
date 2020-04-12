@@ -37,7 +37,13 @@
     "typescript": "^3.7.5"
   },
   "keywords": [
-    "gatsby, typescript"
+    "gatsby",
+    "starter",
+    "typescript",
+    "eslint",
+    "jest",
+    "netlify",
+    "prettier"
   ],
   "license": "MIT",
   "scripts": {

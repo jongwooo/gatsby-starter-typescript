@@ -136,6 +136,16 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 22. **`tsconfig.json`**: The presence of this file in a directory indicates that the directory is the root of a TypeScript project. This file specifies the root files and the compiler options required to compile the project.
 
+## ✅ Testing
+
+### Creating New Tests
+
+One example test has been included in this starter. It can be found under `/src/components/__tests__/header.tsx`. This test creates a `Header` component and makes sure it renders correctly. Check out the [Jest documentation](https://jestjs.io/docs/en/snapshot-testing) for how to write more tests.
+
+### Running Tests
+
+To run Jest tests on the project, run `npm test` on the command line.
+
 ## ❗ Code of Conduct
 
 I expect everyone participating in the contributing to abide by [Code of Conduct](CODE_OF_CONDUCT.md).

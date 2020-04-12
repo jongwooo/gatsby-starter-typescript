@@ -24,7 +24,7 @@ interface SEOProps {
 	title: string;
 }
 
-function SEO({ description, lang, meta, title }: SEOProps) {
+const SEO = ({ description, lang, meta, title }: SEOProps) => {
 	const { site } = useStaticQuery(
 		graphql`
 			query {
@@ -84,7 +84,7 @@ function SEO({ description, lang, meta, title }: SEOProps) {
 			].concat(meta)}
 		/>
 	);
-}
+};
 
 SEO.defaultProps = {
 	lang: `en`,

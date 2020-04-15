@@ -140,7 +140,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 ### Creating New Tests
 
-One example test has been included in this starter. It can be found under `/src/components/__tests__/header.tsx`. This test creates a `Header` component and makes sure it renders correctly. Check out the [Jest documentation](https://jestjs.io/docs/en/snapshot-testing) for how to write more tests.
+One example test has been included in this starter. It can be found under `/src/components/__tests__/header.tsx`. This test creates a `Header` component and makes sure it renders correctly. Check out the [Jest documentation](https://jestjs.io/docs/en/getting-started) for how to write more tests.
 
 ### Running Tests
 

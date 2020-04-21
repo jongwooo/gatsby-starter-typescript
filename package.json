@@ -3,7 +3,7 @@
   "private": true,
   "description": "TypeScript version of the default Gatsby starter",
   "version": "0.1.0",
-  "author": "@jongwooo <han980817@gmail.com>",
+  "author": "Jongwoo Han <han980817@gmail.com>",
   "dependencies": {
     "eslint-loader": "^3.0.4",
     "gatsby": "^2.19.7",

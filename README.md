@@ -77,8 +77,6 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     ├── .gitignore
     ├── .prettierignore
     ├── .prettierrc.js
-    ├── CODE_OF_CONDUCT.md
-    ├── CONTRIBUTING.md
     ├── LICENSE
     ├── README.md
     ├── gatsby-browser.js
@@ -92,7 +90,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     ├── package.json
     └── tsconfig.json
 
-1.  **`/.github`**: This directory contains settings about Github Actions and templates about issue, pull-request.
+1.  **`/.github`**: This directory contains a set-up of GitHub Actions, a template for the issue / pull-request, and a guide to conducts and contributions.
 
 2.  **`/__mocks__`**: This directory contains [manual mocks](https://jestjs.io/docs/en/manual-mocks) which are used to stub out functionality with mock data. For example, instead of accessing a remote resource like a website or a database, you might want to create a manual mock that allows you to use fake data. This ensures your tests will be fast and not flaky. This description can be found in the [Jest documentation](https://jestjs.io/docs/en/getting-started.html).
 
@@ -108,33 +106,29 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 8.  **`.prettierrc.js`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
-9.  **`CODE_OF_CONDUCT.md`**: This file defines standards for how to engage in a community. It signals an inclusive environment that respects all contributions.
+9.  **`LICENSE`**: Gatsby's starter with TypeScript is licensed under the MIT license.
 
-10. **`CONTRIBUTING.md`**: This file is guidelines for repository contributors.
+10. **`README.md`**: A text file containing useful reference information about your project.
 
-11. **`LICENSE`**: Gatsby's starter with TypeScript is licensed under the MIT license.
+11. **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
 
-12. **`README.md`**: A text file containing useful reference information about your project.
+12. **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
 
-13. **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+13. **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
-14. **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+14. **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
 
-15. **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+15. **`jest-preprocess.js`**: This is a configuration file containing Babel settings for Jest. `jest.config.js` points to this file in order to transform all `.tsx` and `.jsx` files that will be tested.
 
-16. **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+16. **`jest.config.js`**: This is a configuration file for [Jest](https://jestjs.io/). Jest is a JavaScript testing framework.
 
-17. **`jest-preprocess.js`**: This is a configuration file containing Babel settings for Jest. `jest.config.js` points to this file in order to transform all `.tsx` and `.jsx` files that will be tested.
+17. **`loadershim.js`**: This file contains a function used by Jest when tests are run.
 
-18. **`jest.config.js`**: This is a configuration file for [Jest](https://jestjs.io/). Jest is a JavaScript testing framework.
+18. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
-19. **`loadershim.js`**: This file contains a function used by Jest when tests are run.
+19. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-20. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
-
-21. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-22. **`tsconfig.json`**: The presence of this file in a directory indicates that the directory is the root of a TypeScript project. This file specifies the root files and the compiler options required to compile the project.
+20. **`tsconfig.json`**: The presence of this file in a directory indicates that the directory is the root of a TypeScript project. This file specifies the root files and the compiler options required to compile the project.
 
 ## ✅ Testing
 
@@ -148,11 +142,11 @@ To run Jest tests on the project, run `npm test` on the command line.
 
 ## ❗ Code of Conduct
 
-I expect everyone participating in the contributing to abide by [Code of Conduct](CODE_OF_CONDUCT.md).
+I expect everyone participating in the contributing to abide by [Code of Conduct](.github/CODE_OF_CONDUCT.md).
 
 ## 🤝 How to Contribute
 
-Check out [Contributing guide](CONTRIBUTING.md) for ideas on contributing and setup steps for getting our repositories up and running on your local machine.
+Check out [Contributing guide](.github/CONTRIBUTING.md) for ideas on contributing and setup steps for getting our repositories up and running on your local machine.
 
 ## 🐛 Bug reporting
 

@@ -4,5 +4,5 @@ package-lock.json
 public
 ISSUE_TEMPLATE/
 PULL_REQUEST_TEMPLATE.md
-CODE_OF_CONDUCT.md
-CONTRIBUTING.md
+.github/CODE_OF_CONDUCT.md
+.github/CONTRIBUTING.md

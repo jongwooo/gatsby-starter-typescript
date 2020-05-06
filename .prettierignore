@@ -2,7 +2,3 @@
 package.json
 package-lock.json
 public
-ISSUE_TEMPLATE/
-PULL_REQUEST_TEMPLATE.md
-.github/CODE_OF_CONDUCT.md
-.github/CONTRIBUTING.md

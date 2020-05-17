@@ -52,9 +52,9 @@
     "build": "gatsby build",
     "clean": "gatsby clean",
     "develop": "gatsby develop",
-    "format": "prettier --check \"**/*.{js,jsx,json,md,ts,tsx,yml}\"",
+    "format": "prettier --check \"**/*.{css,js,jsx,json,md,ts,tsx,yml}\"",
     "lint": "eslint .",
-    "prettier": "prettier --write \"**/*.{js,jsx,json,md,ts,tsx,yml}\"",
+    "prettier": "prettier --write \"**/*.{css,js,jsx,json,md,ts,tsx,yml}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "jest"

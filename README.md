@@ -34,10 +34,6 @@
   <img alt="GitHub stars" src="https://img.shields.io/github/stars/jongwooo/gatsby-starter-typescript?style=social">
 </p>
 
-<p align="center">
-  <img alt="Gatsby Starter TypeScript" src="https://gatsby-starter-typescript-bucket.s3.ap-northeast-2.amazonaws.com/assets/images/homepage.png"/>
-</p>
-
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**

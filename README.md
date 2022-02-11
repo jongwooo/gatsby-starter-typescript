@@ -70,7 +70,7 @@ One example test has been included in this starter. It can be found under `/src/
 
 ### Running Tests
 
-To run Jest tests on the project, run `npm test` on the command line.
+To run Jest tests on the project, run `yarn test` on the command line.
 
 ## ❗ Code of Conduct
 

@@ -99,6 +99,9 @@ Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cl
   <a href="https://app.netlify.com/start/deploy?repository=https://github.com/jongwooo/gatsby-starter-typescript">
     <img height="30" alt="Deploy to Netlify" src="https://www.netlify.com/img/deploy/button.svg" />
   </a>
+  <a href="https://vercel.com/import/project?template=https://github.com/jongwooo/gatsby-starter-typescript">
+    <img height="30" alt="Deploy with Vercel" src="https://vercel.com/button" />
+  </a>
 </p>
 
 <!-- AUTO-GENERATED-CONTENT:END -->

@@ -90,7 +90,7 @@ Licensed under the [MIT License](LICENSE).
 
 ## 💫 Deploy
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/) or [Netlify](https://www.netlify.com):
+Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/) or [Netlify](https://www.netlify.com/), [Vercel](https://vercel.com/):
 
 <p align="left">
   <a href="https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/jongwooo/gatsby-starter-typescript">

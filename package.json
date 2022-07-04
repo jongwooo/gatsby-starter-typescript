@@ -15,6 +15,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "build:incremental": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --check \"**/*.{css,js,jsx,json,md,ts,tsx,yml}\"",
     "format:fix": "prettier --write \"**/*.{css,js,jsx,json,md,ts,tsx,yml}\"",

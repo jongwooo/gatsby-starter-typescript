@@ -1,11 +1,11 @@
 name: Deploy to Netlify
 on: [push]
 jobs:
-    deploy_source:
-        name: Build and Deploy to Netlify
+    deploy:
+        name: Deploy to Netlify
         strategy:
             matrix:
-                node-version: [14.x]
+                node-version: [16.x]
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v1
@@ -13,12 +13,44 @@ jobs:
               uses: actions/setup-node@v1
               with:
                   node-version: ${{ matrix.node-version }}
+
+            - name: Get Yarn cache directory path
+              id: yarn-cache-dir-path
+              run: echo '::set-output name=dir::$(yarn config get cacheFolder)'
+
+            - name: Cache Yarn cache files
+              uses: actions/cache@v3
+              id: yarn-cache
+              with:
+                  path: |
+                      ${{ steps.yarn-cache-dir-path.outputs.dir }}
+                      ${{ github.workspace }}/node_modules
+                  key: ${{ runner.os }}-Node-v${{ matrix.node-version }}-Yarn-${{ hashFiles('**/yarn.lock') }}
+                  restore-keys: |
+                      ${{ runner.os }}-Node-v${{ matrix.node-version }}-Yarn-
+
+            - name: Cache Gatsby cache files
+              uses: actions/cache@v3
+              id: gatsby-cache
+              with:
+                  path: |
+                      ${{ github.workspace }}/.cache
+                      ${{ github.workspace }}/public
+                  key: ${{ runner.os }}-Node-v${{ matrix.node-version }}-Gatsby-${{ hashFiles('**/yarn.lock') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
+                  restore-keys: |
+                      ${{ runner.os }}-Node-v${{ matrix.node-version }}-Gatsby-${{ hashFiles('**/yarn.lock') }}-
+
             - name: Install dependencies
+              if: |
+                  steps.yarn-cache.outputs.cache-hit != 'true'
               run: yarn install
+
             - name: Unit test
               run: yarn test
+
             - name: Run build
-              run: yarn run build
+              run: yarn run build:incremental
+
             - name: Default deploy
               uses: netlify/actions/cli@master
               env:

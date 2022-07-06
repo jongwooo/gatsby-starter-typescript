@@ -10,7 +10,7 @@ module.exports = {
         "^gatsby-page-utils/(.*)$": `gatsby-page-utils/$1`,
     },
     testPathIgnorePatterns: [`node_modules`, `\\.cache`, `<rootDir>.*/public`],
-    transformIgnorePatterns: [`node_modules/(?!(gatsby|gatsby-script)/)`],
+    transformIgnorePatterns: [`node_modules/(?!(gatsby|gatsby-link|gatsby-script)/)`],
     globals: {
         __PATH_PREFIX__: "",
     },

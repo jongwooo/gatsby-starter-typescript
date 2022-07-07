@@ -1,11 +1,11 @@
-name: Deploy to Netlify
+name: build test
 on: [push]
 jobs:
-    deploy:
-        name: Deploy to Netlify
+    build:
+        name: build test
         strategy:
             matrix:
-                node-version: [16.x]
+                node-version: [14.x, 16.x]
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v1
@@ -50,11 +50,3 @@ jobs:
 
             - name: Run build
               run: yarn run build:incremental
-
-            - name: Default deploy
-              uses: netlify/actions/cli@master
-              with:
-                  args: deploy --dir=public --prod
-              env:
-                  NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-                  NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}

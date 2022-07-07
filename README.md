@@ -28,9 +28,6 @@
   <a href="https://www.codefactor.io/repository/github/jongwooo/gatsby-starter-typescript">
     <img alt="CodeFactor" src="https://www.codefactor.io/repository/github/jongwooo/gatsby-starter-typescript/badge" />
   </a>
-  <a href="https://github.com/jongwooo/gatsby-starter-typescript/actions?query=workflow%3A%22Deploy+to+Netlify%22">
-    <img alt="Deploy to Netlify Status" src="https://github.com/jongwooo/gatsby-starter-typescript/workflows/Deploy%20to%20Netlify/badge.svg" />
-  </a>
   <img alt="GitHub stars" src="https://img.shields.io/github/stars/jongwooo/gatsby-starter-typescript?style=social" />
 </p>
 
@@ -90,18 +87,8 @@ Licensed under the [MIT License](LICENSE).
 
 ## 💫 Deploy
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/) or [Netlify](https://www.netlify.com/), [Vercel](https://vercel.com/):
+Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
-<p align="left">
-  <a href="https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/jongwooo/gatsby-starter-typescript">
-    <img height="30" alt="Deploy to Gatsby Cloud" src="https://www.gatsbyjs.com/deploynow.svg" />
-  </a>
-  <a href="https://app.netlify.com/start/deploy?repository=https://github.com/jongwooo/gatsby-starter-typescript">
-    <img height="30" alt="Deploy to Netlify" src="https://www.netlify.com/img/deploy/button.svg" />
-  </a>
-  <a href="https://vercel.com/import/project?template=https://github.com/jongwooo/gatsby-starter-typescript">
-    <img height="30" alt="Deploy with Vercel" src="https://vercel.com/button" />
-  </a>
-</p>
+[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/jongwooo/gatsby-starter-typescript)
 
 <!-- AUTO-GENERATED-CONTENT:END -->

@@ -1,16 +1,12 @@
-const siteUrl = `https://typescriptstarter.gatsbyjs.io`
+const metaConfig = require("./gatsby-meta-config")
 
 module.exports = {
-    siteMetadata: {
-        title: `Gatsby Starter TypeScript`,
-        description: `TypeScript version of the default Gatsby starter`,
-        author: `@jongwooo`,
-    },
+    siteMetadata: metaConfig,
     plugins: [
         {
             resolve: `gatsby-plugin-canonical-urls`,
             options: {
-                siteUrl,
+                siteUrl: `${metaConfig.siteUrl}`,
                 stripQueryString: true,
             },
         },
@@ -29,8 +25,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-robots-txt`,
             options: {
-                host: siteUrl,
-                sitemap: `${siteUrl}/sitemap-index.xml`,
+                host: `${metaConfig.siteUrl}`,
+                sitemap: `${metaConfig.siteUrl}/sitemap-index.xml`,
                 policy: [
                     {
                         userAgent: "*",

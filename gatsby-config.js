@@ -1,10 +1,15 @@
+const metaConfig = require("./gatsby-meta-config")
+
 module.exports = {
-    siteMetadata: {
-        title: `Gatsby Starter TypeScript`,
-        description: `TypeScript version of the default Gatsby starter`,
-        author: `@jongwooo`,
-    },
+    siteMetadata: metaConfig,
     plugins: [
+        {
+            resolve: `gatsby-plugin-canonical-urls`,
+            options: {
+                siteUrl: `${metaConfig.siteUrl}`,
+                stripQueryString: true,
+            },
+        },
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
@@ -15,6 +20,25 @@ module.exports = {
                 theme_color: `#663399`,
                 display: `minimal-ui`,
                 icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+            },
+        },
+        {
+            resolve: `gatsby-plugin-robots-txt`,
+            options: {
+                host: `${metaConfig.siteUrl}`,
+                sitemap: `${metaConfig.siteUrl}/sitemap-index.xml`,
+                policy: [
+                    {
+                        userAgent: "*",
+                        allow: "/",
+                    },
+                ],
+            },
+        },
+        {
+            resolve: `gatsby-plugin-sitemap`,
+            options: {
+                output: "/",
             },
         },
         {

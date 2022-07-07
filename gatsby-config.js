@@ -6,6 +6,13 @@ module.exports = {
     },
     plugins: [
         {
+            resolve: `gatsby-plugin-canonical-urls`,
+            options: {
+                siteUrl: `https://typescriptstarter.gatsbyjs.io`,
+                stripQueryString: true,
+            },
+        },
+        {
             resolve: `gatsby-plugin-manifest`,
             options: {
                 name: `gatsby-starter-default`,

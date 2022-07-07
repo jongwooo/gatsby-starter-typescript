@@ -1,3 +1,5 @@
+const siteUrl = `https://typescriptstarter.gatsbyjs.io`
+
 module.exports = {
     siteMetadata: {
         title: `Gatsby Starter TypeScript`,
@@ -8,7 +10,7 @@ module.exports = {
         {
             resolve: `gatsby-plugin-canonical-urls`,
             options: {
-                siteUrl: `https://typescriptstarter.gatsbyjs.io`,
+                siteUrl,
                 stripQueryString: true,
             },
         },
@@ -22,6 +24,19 @@ module.exports = {
                 theme_color: `#663399`,
                 display: `minimal-ui`,
                 icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+            },
+        },
+        {
+            resolve: `gatsby-plugin-robots-txt`,
+            options: {
+                host: siteUrl,
+                sitemap: `${siteUrl}/sitemap-index.xml`,
+                policy: [
+                    {
+                        userAgent: "*",
+                        allow: "/",
+                    },
+                ],
             },
         },
         {

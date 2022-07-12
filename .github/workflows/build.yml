@@ -18,8 +18,7 @@ jobs:
               id: yarn-cache-dir-path
               run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
 
-            - name: Cache Yarn cache files
-              uses: actions/cache@v3
+            - uses: actions/cache@v3
               id: yarn-cache
               with:
                   path: |
@@ -28,8 +27,7 @@ jobs:
                   restore-keys: |
                       ${{ runner.os }}-Node-v${{ matrix.node-version }}-Yarn-
 
-            - name: Cache Gatsby cache files
-              uses: actions/cache@v3
+            - uses: actions/cache@v3
               id: gatsby-cache
               with:
                   path: |

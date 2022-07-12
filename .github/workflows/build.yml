@@ -16,7 +16,7 @@ jobs:
 
             - name: Get Yarn cache directory path
               id: yarn-cache-dir-path
-              run: echo '::set-output name=dir::$(yarn config get cacheFolder)'
+              run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
 
             - name: Cache Yarn cache files
               uses: actions/cache@v3
@@ -24,7 +24,6 @@ jobs:
               with:
                   path: |
                       ${{ steps.yarn-cache-dir-path.outputs.dir }}
-                      ${{ github.workspace }}/node_modules
                   key: ${{ runner.os }}-Node-v${{ matrix.node-version }}-Yarn-${{ hashFiles('**/yarn.lock') }}
                   restore-keys: |
                       ${{ runner.os }}-Node-v${{ matrix.node-version }}-Yarn-
@@ -41,8 +40,6 @@ jobs:
                       ${{ runner.os }}-Node-v${{ matrix.node-version }}-Gatsby-${{ hashFiles('**/yarn.lock') }}-
 
             - name: Install dependencies
-              if: |
-                  steps.yarn-cache.outputs.cache-hit != 'true'
               run: yarn install
 
             - name: Unit test

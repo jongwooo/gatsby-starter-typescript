@@ -1,13 +1,11 @@
 .list {
     display: grid;
-    margin: 0;
     /* https://css-tricks.com/responsive-layouts-fewer-media-queries/ */
     --w: 280px;
     --n: 2;
     gap: var(--size-gap);
     grid-template-columns: repeat(auto-fit, minmax(max(var(--w), 100%/ (var(--n) + 1) + 0.1%), 1fr));
-    margin-bottom: var(--size-gap);
-    margin-top: var(--size-gap);
+    margin: var(--size-gap) 0;
 }
 
 .listItem {

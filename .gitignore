@@ -54,9 +54,12 @@ typings/
 # dotenv environment variable files
 .env*
 
-# gatsby files
+# Gatsby files
 .cache/
 public
+
+# Jest snapshots
+*.*.snap
 
 # Mac files
 .DS_Store

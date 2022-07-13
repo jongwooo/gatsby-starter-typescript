@@ -27,21 +27,21 @@ jobs:
                   restore-keys: |
                       ${{ runner.os }}-Node-v${{ matrix.node-version }}-Yarn-
 
-            - uses: actions/cache@v3
-              id: gatsby-cache
-              with:
-                  path: |
-                      ${{ github.workspace }}/.cache
-                      ${{ github.workspace }}/public
-                  key: ${{ runner.os }}-Node-v${{ matrix.node-version }}-Gatsby-${{ hashFiles('**/yarn.lock') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
-                  restore-keys: |
-                      ${{ runner.os }}-Node-v${{ matrix.node-version }}-Gatsby-${{ hashFiles('**/yarn.lock') }}-
-
             - name: Install dependencies
               run: yarn install
 
             - name: Unit test
               run: yarn test
+
+            - uses: actions/cache@v3
+              id: gatsby-cache
+              with:
+                path: |
+                  ${{ github.workspace }}/.cache
+                  ${{ github.workspace }}/public
+                key: ${{ runner.os }}-Node-v${{ matrix.node-version }}-Gatsby-${{ hashFiles('**/yarn.lock') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
+                restore-keys: |
+                  ${{ runner.os }}-Node-v${{ matrix.node-version }}-Gatsby-${{ hashFiles('**/yarn.lock') }}-
 
             - name: Run build
               run: yarn run build:incremental

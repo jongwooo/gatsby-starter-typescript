@@ -40,6 +40,10 @@ jobs:
             - name: Install dependencies
               run: yarn install
 
+            - name: Delete Gatsby cache directories
+              if: "contains(github.event.head_commit.message, '[clean cache]')"
+              run: yarn run clean
+
             - name: Unit test
               run: yarn test
 

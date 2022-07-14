@@ -1,5 +1,5 @@
 name: build test
-on: [push]
+on: push
 jobs:
     build:
         name: build test
@@ -39,9 +39,6 @@ jobs:
 
             - name: Install dependencies
               run: yarn install
-
-            - name: Unit test
-              run: yarn test
 
             - name: Run build
               run: yarn run build:incremental

@@ -1,8 +1,8 @@
-name: build test
+name: build
 on: push
 jobs:
     build:
-        name: build test
+        name: build
         strategy:
             matrix:
                 node-version: [14.x, 16.x]

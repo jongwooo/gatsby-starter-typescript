@@ -28,9 +28,12 @@
   <a href="https://www.codefactor.io/repository/github/jongwooo/gatsby-starter-typescript">
     <img alt="CodeFactor" src="https://www.codefactor.io/repository/github/jongwooo/gatsby-starter-typescript/badge" />
   </a>
-    <a href="https://github.com/jongwooo/gatsby-starter-typescript/actions/workflows/build.yml">
-     <img alt="Build Test Status" src="https://github.com/jongwooo/gatsby-starter-typescript/actions/workflows/build.yml/badge.svg" />
-   </a>
+  <a href="https://github.com/jongwooo/gatsby-starter-typescript/actions/workflows/unit_test.yml">
+    <img alt="Unit Test Status" src="https://github.com/jongwooo/gatsby-starter-typescript/actions/workflows/unit_test.yml/badge.svg" />
+  </a>
+  <a href="https://github.com/jongwooo/gatsby-starter-typescript/actions/workflows/build.yml">
+    <img alt="Build Status" src="https://github.com/jongwooo/gatsby-starter-typescript/actions/workflows/build.yml/badge.svg" />
+  </a>
   <img alt="GitHub stars" src="https://img.shields.io/github/stars/jongwooo/gatsby-starter-typescript?style=social" />
 </p>
 

@@ -6,7 +6,7 @@
 </p>
 
 <h1 align="center">
-  Gatsby's starter with TypeScript
+  Gatsby’s TypeScript Starter
 </h1>
 
 <h3 align="center">

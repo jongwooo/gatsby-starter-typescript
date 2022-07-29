@@ -41,11 +41,11 @@
 
 1.  **Create a Gatsby site.**
 
-    Install this starter (assuming Gatsby is installed) by running from your CLI.
+    Use the Gatsby CLI ([install instructions](https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli)) to create a new site, specifying this starter.
 
     ```shell
-    # create a new Gatsby site using the gatsby-starter-typescript
-    gatsby new gatsby-starter-typescript https://github.com/jongwooo/gatsby-starter-typescript
+    # create a new Gatsby site using gatsby-starter-typescript
+    gatsby new my-typescript-starter https://github.com/jongwooo/gatsby-starter-typescript
     ```
 
 2.  **Start developing.**
@@ -53,7 +53,7 @@
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd gatsby-starter-typescript/
+    cd my-typescript-starter/
     yarn develop
     ```
 
@@ -63,7 +63,13 @@
 
     Note: You'll also see a second link: `http://localhost:8000/___graphql`. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql).
 
-    Open the `gatsby-starter-typescript` directory in your code editor of choice and edit `src/pages/index.tsx`. Save your changes and the browser will update in real time!
+    Open the `my-typescript-starter` directory in your code editor of choice and edit `src/pages/index.tsx`. Save your changes and the browser will update in real time!
+
+## 🚀 Quick start (Gatsby Cloud)
+
+Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+
+[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/jongwooo/gatsby-starter-typescript)
 
 ## ✅ Testing
 
@@ -74,6 +80,12 @@ One example test has been included in this starter. It can be found under `/src/
 ### Running Tests
 
 To run Jest tests on the project, run `yarn test` on the command line.
+
+## 💫 Deploy
+
+[Build, Deploy, and Host On The Only Cloud Built For Gatsby](https://www.gatsbyjs.com/products/cloud/)
+
+Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.
 
 ## ❗ Code of Conduct
 
@@ -90,11 +102,5 @@ If you found a bug in this repository, please let me know through the [Issue](ht
 ## 📝 License
 
 Licensed under the [MIT License](LICENSE).
-
-## 💫 Deploy
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/jongwooo/gatsby-starter-typescript)
 
 <!-- AUTO-GENERATED-CONTENT:END -->

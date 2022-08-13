@@ -69,7 +69,6 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 
 const IndexPage = () => (
     <Layout>
-        <Seo title="Home" />
         <div className={styles.textCenter}>
             <StaticImage
                 src="../images/example.png"
@@ -113,5 +112,7 @@ const IndexPage = () => (
         ))}
     </Layout>
 )
+
+export const Head = () => <Seo title="Home" />
 
 export default IndexPage

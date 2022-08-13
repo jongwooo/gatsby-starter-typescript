@@ -7,23 +7,15 @@
 
 import * as React from "react"
 import PropTypes from "prop-types"
-import { HelmetProvider, Helmet } from "react-helmet-async"
 import { useStaticQuery, graphql } from "gatsby"
-
-interface SEOMeta {
-    property?: undefined
-    name: string
-    content: string
-}
 
 interface SEOProps {
     description?: string
-    lang?: string
-    meta: SEOMeta[]
     title: string
+    children: object
 }
 
-const Seo = ({ description, lang, meta, title }: SEOProps) => {
+const Seo = ({ description, title, children }: SEOProps) => {
     const { site } = useStaticQuery(
         graphql`
             query {
@@ -41,63 +33,30 @@ const Seo = ({ description, lang, meta, title }: SEOProps) => {
     const metaDescription = description || site.siteMetadata.description
 
     return (
-        <HelmetProvider>
-            <Helmet
-                htmlAttributes={{
-                    lang,
-                }}
-                title={title}
-                titleTemplate={`%s | ${site.siteMetadata.title}`}
-                meta={[
-                    {
-                        name: `description`,
-                        content: metaDescription,
-                    },
-                    {
-                        property: `og:title`,
-                        content: title,
-                    },
-                    {
-                        property: `og:description`,
-                        content: metaDescription,
-                    },
-                    {
-                        property: `og:type`,
-                        content: `website`,
-                    },
-                    {
-                        name: `twitter:card`,
-                        content: `summary`,
-                    },
-                    {
-                        name: `twitter:creator`,
-                        content: site.siteMetadata.author,
-                    },
-                    {
-                        name: `twitter:title`,
-                        content: title,
-                    },
-                    {
-                        name: `twitter:description`,
-                        content: metaDescription,
-                    },
-                ].concat(meta)}
-            />
-        </HelmetProvider>
+        <>
+            <title>{title}</title>
+            <meta name="description" content={metaDescription} />
+            <meta property="og:title" content={title} />
+            <meta property="og:description" content={metaDescription} />
+            <meta property="og:type" content="website" />
+            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:creator" content={site.siteMetadata.author} />
+            <meta name="twitter:title" content={title} />
+            <meta name="twitter:description" content={metaDescription} />
+            <meta name="twitter:image" content={metaDescription} />
+            {children}
+        </>
     )
 }
 
 Seo.defaultProps = {
-    lang: `en`,
-    meta: [],
     description: ``,
 }
 
 Seo.propTypes = {
     description: PropTypes.string,
-    lang: PropTypes.string,
-    meta: PropTypes.arrayOf(PropTypes.object),
     title: PropTypes.string.isRequired,
+    children: PropTypes.any,
 }
 
 export default Seo

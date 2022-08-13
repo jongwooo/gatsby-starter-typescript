@@ -24,7 +24,8 @@ const Seo = ({ description, title, children }: SEOProps) => {
                         title
                         description
                         author
-                        ogImageUrl
+                        siteUrl
+                        defaultOgImage
                     }
                 }
             }
@@ -32,6 +33,7 @@ const Seo = ({ description, title, children }: SEOProps) => {
     )
 
     const metaDescription = description || site.siteMetadata.description
+    const ogImageUrl = `${site.siteMetadata.siteUrl}${site.siteMetadata.defaultOgImage}`;
 
     return (
         <>
@@ -40,7 +42,7 @@ const Seo = ({ description, title, children }: SEOProps) => {
             <meta property="og:title" content={title} />
             <meta property="og:description" content={metaDescription} />
             <meta property="og:type" content="website" />
-            <meta property="og:image" content={site.siteMetadata.ogImageUrl} />
+            <meta property="og:image" content={ogImageUrl} />
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:creator" content={site.siteMetadata.author} />
             <meta name="twitter:title" content={title} />

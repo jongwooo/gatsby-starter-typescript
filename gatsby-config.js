@@ -50,7 +50,6 @@ module.exports = {
         },
         `gatsby-plugin-gatsby-cloud`,
         `gatsby-plugin-image`,
-        `gatsby-plugin-react-helmet-async`,
         `gatsby-plugin-sharp`,
         `gatsby-plugin-typescript`,
         `gatsby-transformer-sharp`,

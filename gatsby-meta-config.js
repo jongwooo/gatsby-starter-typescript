@@ -3,5 +3,5 @@ module.exports = {
     description: `TypeScript version of the default Gatsby starter`,
     author: `@jongwooo`,
     siteUrl: `https://typescriptstarter.gtsb.io`,
-    defaultOgImage: `/Gatsby_preview.png`,
+    defaultOgImage: `/Gatsby_Preview.png`,
 }

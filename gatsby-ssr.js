@@ -6,5 +6,5 @@
 
 // You can delete this file if you're not using it
 exports.onRenderBody = ({ setHtmlAttributes }) => {
-    setHtmlAttributes({ lang: "ko" });
-};
+    setHtmlAttributes({ lang: "ko" })
+}

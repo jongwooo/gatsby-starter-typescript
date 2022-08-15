@@ -33,7 +33,7 @@ const Seo = ({ description, title, children }: SEOProps) => {
     )
 
     const metaDescription = description || site.siteMetadata.description
-    const ogImageUrl = `${site.siteMetadata.siteUrl}${site.siteMetadata.defaultOgImage}`;
+    const ogImageUrl = `${site.siteMetadata.siteUrl}${site.siteMetadata.defaultOgImage}`
 
     return (
         <>

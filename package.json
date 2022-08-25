@@ -28,7 +28,7 @@
     "type": "git",
     "url": "https://github.com/jongwooo/gatsby-starter-typescript"
   },
-  "packageManager": "yarn@3.2.2",
+  "packageManager": "yarn@3.2.3",
   "dependencies": {
     "gatsby": "^4.21.1",
     "gatsby-plugin-canonical-urls": "^4.21.0",

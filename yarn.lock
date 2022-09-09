@@ -5162,9 +5162,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-preset-gatsby@npm:^2.22.0":
-  version: 2.22.0
-  resolution: "babel-preset-gatsby@npm:2.22.0"
+"babel-preset-gatsby@npm:^2.22.1":
+  version: 2.22.1
+  resolution: "babel-preset-gatsby@npm:2.22.1"
   dependencies:
     "@babel/plugin-proposal-class-properties": ^7.14.0
     "@babel/plugin-proposal-nullish-coalescing-operator": ^7.14.5
@@ -5184,7 +5184,7 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.11.6
     core-js: ^3.0.0
-  checksum: 70d56f674cd7d8c09a1d7b34f7e0c9e58602d8c746548271b0bdec9886f890a1594106b9053490de5688c32757fe2abeb209f74e1bf0dc87dc0d80fecadb0846
+  checksum: 5ce8c36706a2d854b7d8e663d684a49dd55b3bb36d14243e57420c596bf2b69ad1e7cb94bbc33e802f7b474f1a5e271094d0445deeb27bafad2873a4111441b1
   languageName: node
   linkType: hard
 
@@ -6277,14 +6277,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"create-gatsby@npm:^2.22.0":
-  version: 2.22.0
-  resolution: "create-gatsby@npm:2.22.0"
+"create-gatsby@npm:^2.22.1":
+  version: 2.22.1
+  resolution: "create-gatsby@npm:2.22.1"
   dependencies:
     "@babel/runtime": ^7.15.4
   bin:
     create-gatsby: cli.js
-  checksum: a6fbfd651b8d3d52c8f13e15ed9c17394d59a0f081edd04b16b556ba4dc20e4d07a78531258c9dad88fe3a490ea48c3f85a5a8127473f6c2583a7896d01d3ac7
+  checksum: dcec1a90a1bce048066d264f5a7d55426bba7e26fb07c37bf59e8045c833f07291126eb9fd6094bd8707f14e0d573da76c656390c2976f9c88cb56c94552e2a7
   languageName: node
   linkType: hard
 
@@ -8429,9 +8429,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-cli@npm:^4.22.0":
-  version: 4.22.0
-  resolution: "gatsby-cli@npm:4.22.0"
+"gatsby-cli@npm:^4.22.1":
+  version: 4.22.1
+  resolution: "gatsby-cli@npm:4.22.1"
   dependencies:
     "@babel/code-frame": ^7.14.0
     "@babel/core": ^7.15.5
@@ -8449,7 +8449,7 @@ __metadata:
     clipboardy: ^2.3.0
     common-tags: ^1.8.2
     convert-hrtime: ^3.0.0
-    create-gatsby: ^2.22.0
+    create-gatsby: ^2.22.1
     envinfo: ^7.8.1
     execa: ^5.1.1
     fs-exists-cached: ^1.0.0
@@ -8477,7 +8477,7 @@ __metadata:
     yurnalist: ^2.1.0
   bin:
     gatsby: cli.js
-  checksum: 3f0bf682563a69035cf1242eee8a8699a402b710488ee8687054eda35ea63dc750241466c79d9d9ace8444ab77b8b23b106fcf3bd336e45c8ce7f21d1ff9f7ec
+  checksum: b120bca52c4daed7e58b4de3e9c0af3abbbfba307a632151b4d8fdeead38fccfa24e4fc1b2d89b858eaeba2b84b0ea1c129a9bd8a474a7bc9a8bfbf4f81bf90f
   languageName: node
   linkType: hard
 
@@ -8852,8 +8852,8 @@ __metadata:
     "@types/react": ^18.0.18
     "@types/react-test-renderer": ^18.0.0
     babel-jest: ^29.0.2
-    babel-preset-gatsby: ^2.22.0
-    gatsby: ^4.22.0
+    babel-preset-gatsby: ^2.22.1
+    gatsby: ^4.22.1
     gatsby-plugin-canonical-urls: ^4.22.0
     gatsby-plugin-gatsby-cloud: ^4.22.0
     gatsby-plugin-image: ^2.22.0
@@ -8927,9 +8927,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby@npm:^4.22.0":
-  version: 4.22.0
-  resolution: "gatsby@npm:4.22.0"
+"gatsby@npm:^4.22.1":
+  version: 4.22.1
+  resolution: "gatsby@npm:4.22.1"
   dependencies:
     "@babel/code-frame": ^7.14.0
     "@babel/core": ^7.15.5
@@ -8967,7 +8967,7 @@ __metadata:
     babel-plugin-dynamic-import-node: ^2.3.3
     babel-plugin-lodash: ^3.3.4
     babel-plugin-remove-graphql-queries: ^4.22.0
-    babel-preset-gatsby: ^2.22.0
+    babel-preset-gatsby: ^2.22.1
     better-opn: ^2.1.1
     bluebird: ^3.7.2
     browserslist: ^4.17.5
@@ -9009,7 +9009,7 @@ __metadata:
     find-cache-dir: ^3.3.2
     fs-exists-cached: 1.0.0
     fs-extra: ^10.1.0
-    gatsby-cli: ^4.22.0
+    gatsby-cli: ^4.22.1
     gatsby-core-utils: ^3.22.0
     gatsby-graphiql-explorer: ^2.22.0
     gatsby-legacy-polyfills: ^2.22.0
@@ -9101,7 +9101,7 @@ __metadata:
       optional: true
   bin:
     gatsby: ./cli.js
-  checksum: 48197c6a630d5e61892d279806aee1c816f196a66bb92c63cfc7b27155c03bbb2f33ac743e53cdc05919a6a5a1fcf5293945544f3f0d1cc89fe2c74e83b49c29
+  checksum: e966f22e126451966d1bdd3aed50a979aff5e3ef831c30c3b15a4cd3eee18ae19e5e96f83525bd09514a5693bc9262c20dde1d18fab4922a7e19a415035344f2
   languageName: node
   linkType: hard
 

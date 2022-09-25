@@ -8491,9 +8491,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-gatsby-cloud@npm:^4.23.0":
-  version: 4.23.0
-  resolution: "gatsby-plugin-gatsby-cloud@npm:4.23.0"
+"gatsby-plugin-gatsby-cloud@npm:^4.23.1":
+  version: 4.23.1
+  resolution: "gatsby-plugin-gatsby-cloud@npm:4.23.1"
   dependencies:
     "@babel/runtime": ^7.15.4
     fs-extra: ^10.1.0
@@ -8505,7 +8505,7 @@ __metadata:
   peerDependencies:
     gatsby: ^4.0.0-next
     webpack: "*"
-  checksum: c7e641031812386fe0e7039182a93080146d786123b4856322dc4ed62129d50efa94cfdd06b2574b4600a7d669cd865f3aa8c6bf4be84589e6ac3f2cce22e2e3
+  checksum: 5eb3d03e87fdcd9f460bb84ef2a9cd2281b596292bc7decfa9ec94fd3545325fedfbf3bdea7d88e424780990b64a2ef48672362e9063b5dc9882aedc93c113c0
   languageName: node
   linkType: hard
 
@@ -8754,7 +8754,7 @@ __metadata:
     babel-preset-gatsby: ^2.23.0
     gatsby: ^4.23.1
     gatsby-plugin-canonical-urls: ^4.23.0
-    gatsby-plugin-gatsby-cloud: ^4.23.0
+    gatsby-plugin-gatsby-cloud: ^4.23.1
     gatsby-plugin-image: ^2.23.1
     gatsby-plugin-manifest: ^4.23.1
     gatsby-plugin-offline: ^5.23.1

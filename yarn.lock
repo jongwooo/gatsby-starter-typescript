@@ -2136,7 +2136,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gatsbyjs/parcel-namer-relative-to-cwd@npm:^1.9.0":
+"@gatsbyjs/parcel-namer-relative-to-cwd@npm:1.9.0":
   version: 1.9.0
   resolution: "@gatsbyjs/parcel-namer-relative-to-cwd@npm:1.9.0"
   dependencies:
@@ -3341,6 +3341,16 @@ __metadata:
   peerDependencies:
     "@parcel/core": ^2.6.2
   checksum: 32a0480b2986b843d55e0c48a965ff842bf7e4d99325d77c1a7e451a1afc41f7f2602b5a61c79dda1d5382b75834b8e5a452cfb7242d029226f750236cbd3bcf
+  languageName: node
+  linkType: hard
+
+"@parcel/transformer-json@npm:2.6.2":
+  version: 2.6.2
+  resolution: "@parcel/transformer-json@npm:2.6.2"
+  dependencies:
+    "@parcel/plugin": 2.6.2
+    json5: ^2.2.0
+  checksum: 0b4162ba936999e10ad66a569d16b42947c7e2f98f3ac83fcabe20aefac8990797f8032115441a1d49ad01ccb2555b31d70c3cf7f202ba2a1fcc1bc7e4703fe0
   languageName: node
   linkType: hard
 
@@ -8429,11 +8439,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-parcel-config@npm:0.15.0":
-  version: 0.15.0
-  resolution: "gatsby-parcel-config@npm:0.15.0"
+"gatsby-parcel-config@npm:^0.15.1":
+  version: 0.15.1
+  resolution: "gatsby-parcel-config@npm:0.15.1"
   dependencies:
-    "@gatsbyjs/parcel-namer-relative-to-cwd": ^1.9.0
+    "@gatsbyjs/parcel-namer-relative-to-cwd": 1.9.0
     "@parcel/bundler-default": 2.6.2
     "@parcel/compressor-raw": 2.6.2
     "@parcel/namer-default": 2.6.2
@@ -8444,9 +8454,10 @@ __metadata:
     "@parcel/resolver-default": 2.6.2
     "@parcel/runtime-js": 2.6.2
     "@parcel/transformer-js": 2.6.2
+    "@parcel/transformer-json": 2.6.2
   peerDependencies:
     "@parcel/core": ^2.0.0
-  checksum: 8663bdfc005d2f2d95e4dccfea1f54350a2def0787abd2f8d1fc7bc2a4bf150c5c909c36b1edeffa9553bc628a78098d8ff8b9173dd1da15848854a4bfb5ec47
+  checksum: d1d906daeee447aee8709f1953b44a98c067c4971484c747881ead4fcf86206383b98e2ac05669aecca49ba6d1502e97d6a21efcd9c09c82a1d987691c21241c
   languageName: node
   linkType: hard
 
@@ -8722,7 +8733,7 @@ __metadata:
     "@types/react-test-renderer": ^18.0.0
     babel-jest: ^29.1.2
     babel-preset-gatsby: ^2.24.0
-    gatsby: ^4.24.1
+    gatsby: ^4.24.2
     gatsby-plugin-canonical-urls: ^4.24.0
     gatsby-plugin-gatsby-cloud: ^4.24.0
     gatsby-plugin-image: ^2.24.0
@@ -8796,9 +8807,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby@npm:^4.24.1":
-  version: 4.24.1
-  resolution: "gatsby@npm:4.24.1"
+"gatsby@npm:^4.24.2":
+  version: 4.24.2
+  resolution: "gatsby@npm:4.24.2"
   dependencies:
     "@babel/code-frame": ^7.14.0
     "@babel/core": ^7.15.5
@@ -8886,7 +8897,7 @@ __metadata:
     gatsby-legacy-polyfills: ^2.24.0
     gatsby-link: ^4.24.0
     gatsby-page-utils: ^2.24.0
-    gatsby-parcel-config: 0.15.0
+    gatsby-parcel-config: ^0.15.1
     gatsby-plugin-page-creator: ^4.24.0
     gatsby-plugin-typescript: ^4.24.0
     gatsby-plugin-utils: ^3.18.0
@@ -8973,7 +8984,7 @@ __metadata:
       optional: true
   bin:
     gatsby: ./cli.js
-  checksum: e5a1eecade215a40fef6b083793fcccb51c5751b496c831f514778c721b309586302fd574a3e0f743c6ca4c5ec228d5120c9262493e23dfbd1bcdf802da927a7
+  checksum: e52c9be0d5be71f4f3b1cb171d9d371d2e872f47e58f54ab169579f9876bb49bd4998353deda906fd9f665f905c7a148b1d6a1a021fdeab6035d320f05eaf902
   languageName: node
   linkType: hard
 

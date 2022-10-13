@@ -27,7 +27,7 @@ jobs:
                       ${{ runner.os }}-Node-v${{ matrix.node-version }}-Gatsby-${{ hashFiles('**/yarn.lock') }}-
 
             - name: Install dependencies
-              run: yarn install
+              run: yarn install --immutable
 
             - name: Run build
               run: yarn run build:incremental

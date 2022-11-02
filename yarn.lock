@@ -8739,7 +8739,7 @@ __metadata:
     "@types/react-test-renderer": ^18.0.0
     babel-jest: ^29.2.2
     babel-preset-gatsby: ^2.24.0
-    gatsby: ^4.24.5
+    gatsby: ^4.24.6
     gatsby-plugin-canonical-urls: ^4.24.0
     gatsby-plugin-gatsby-cloud: ^4.24.1
     gatsby-plugin-image: ^2.24.0
@@ -8813,9 +8813,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby@npm:^4.24.5":
-  version: 4.24.5
-  resolution: "gatsby@npm:4.24.5"
+"gatsby@npm:^4.24.6":
+  version: 4.24.6
+  resolution: "gatsby@npm:4.24.6"
   dependencies:
     "@babel/code-frame": ^7.14.0
     "@babel/core": ^7.15.5
@@ -8990,7 +8990,7 @@ __metadata:
       optional: true
   bin:
     gatsby: ./cli.js
-  checksum: 9dfe5d8c7308151c815115a842d1a0ff6fa8763f43fc64616ae37b1ce02db531b9e7b5e9bda549b6d188013bb69f67b6a4580e2775e8f5ec9e8df33c590f3109
+  checksum: 3c70d3dc329237c6012114965fafea849406a06289fb53020f8b0c80765e3fed0d7e89a4d01cb51f4505a15c19a1afcc4eeddafae7f7a3f2519e500ea62ed163
   languageName: node
   linkType: hard
 

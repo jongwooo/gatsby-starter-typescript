@@ -8739,7 +8739,7 @@ __metadata:
     "@types/react-test-renderer": ^18.0.0
     babel-jest: ^29.2.2
     babel-preset-gatsby: ^2.24.0
-    gatsby: ^4.24.6
+    gatsby: ^4.24.7
     gatsby-plugin-canonical-urls: ^4.24.0
     gatsby-plugin-gatsby-cloud: ^4.24.1
     gatsby-plugin-image: ^2.24.0
@@ -8813,9 +8813,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby@npm:^4.24.6":
-  version: 4.24.6
-  resolution: "gatsby@npm:4.24.6"
+"gatsby@npm:^4.24.7":
+  version: 4.24.7
+  resolution: "gatsby@npm:4.24.7"
   dependencies:
     "@babel/code-frame": ^7.14.0
     "@babel/core": ^7.15.5
@@ -8918,6 +8918,7 @@ __metadata:
     graphql: ^15.7.2
     graphql-compose: ^9.0.7
     graphql-playground-middleware-express: ^1.7.22
+    graphql-tag: ^2.12.6
     hasha: ^5.2.2
     invariant: ^2.2.4
     is-relative: ^1.0.0
@@ -8990,7 +8991,7 @@ __metadata:
       optional: true
   bin:
     gatsby: ./cli.js
-  checksum: 3c70d3dc329237c6012114965fafea849406a06289fb53020f8b0c80765e3fed0d7e89a4d01cb51f4505a15c19a1afcc4eeddafae7f7a3f2519e500ea62ed163
+  checksum: 0c0b446205f7bee6f7db2b7d5ac76e72d499aa9f3509fa1adf4be5e556de07403d5760de19ce5944732887cb4cafd114faba8e61e3cf220b180d951a0cd1e1c3
   languageName: node
   linkType: hard
 
@@ -9313,7 +9314,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql-tag@npm:^2.11.0":
+"graphql-tag@npm:^2.11.0, graphql-tag@npm:^2.12.6":
   version: 2.12.6
   resolution: "graphql-tag@npm:2.12.6"
   dependencies:

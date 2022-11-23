@@ -1,0 +1,44 @@
+name: Integration Tests
+
+on: pull_request
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        node-version: [ 18.x ]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: yarn
+
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      - name: Unit test
+        run: yarn test
+
+  build:
+    strategy:
+      matrix:
+        node-version: [ 18.x ]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: yarn
+
+      - uses: jongwooo/gatsby-cache@main
+
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      - name: Run build
+        run: yarn run build:incremental

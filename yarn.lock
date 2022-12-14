@@ -8491,14 +8491,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-canonical-urls@npm:^5.2.0":
-  version: 5.2.0
-  resolution: "gatsby-plugin-canonical-urls@npm:5.2.0"
+"gatsby-plugin-canonical-urls@npm:^5.3.0":
+  version: 5.3.0
+  resolution: "gatsby-plugin-canonical-urls@npm:5.3.0"
   dependencies:
     "@babel/runtime": ^7.15.4
   peerDependencies:
     gatsby: ^5.0.0-next
-  checksum: 902262bfe4fe7c6a1a214be20e27b706f0d37f012555441417e59f7d3c44e23df96011ec1feb88d66a7e40ece85a42f86c189b5a8448547f3e157dd6052f37d0
+  checksum: 5727fc043ef758f7eb936a5eb3bee7071e2df6455f50bdb555f959e8a31236e4d72ea6fabde2c39410ce1d2cce95fe316bc9cf6c3ca265e4e81e8ea6598538fa
   languageName: node
   linkType: hard
 
@@ -8763,7 +8763,7 @@ __metadata:
     babel-jest: ^29.3.1
     babel-preset-gatsby: ^3.2.0
     gatsby: ^5.2.0
-    gatsby-plugin-canonical-urls: ^5.2.0
+    gatsby-plugin-canonical-urls: ^5.3.0
     gatsby-plugin-gatsby-cloud: ^5.3.1
     gatsby-plugin-image: ^3.2.0
     gatsby-plugin-manifest: ^5.2.0

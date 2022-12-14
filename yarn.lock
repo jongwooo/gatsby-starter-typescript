@@ -8398,6 +8398,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-core-utils@npm:^4.3.1":
+  version: 4.3.1
+  resolution: "gatsby-core-utils@npm:4.3.1"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+    ci-info: 2.0.0
+    configstore: ^5.0.1
+    fastq: ^1.13.0
+    file-type: ^16.5.3
+    fs-extra: ^10.1.0
+    got: ^11.8.5
+    import-from: ^4.0.0
+    lmdb: 2.5.3
+    lock: ^1.1.0
+    node-object-hash: ^2.3.10
+    proper-lockfile: ^4.1.2
+    resolve-from: ^5.0.0
+    tmp: ^0.2.1
+    xdg-basedir: ^4.0.0
+  checksum: caa3d356ea0ccd2549fdec659f0fbbe6353c6845a543fea55ecb3d2a881ebff19bd4fe0a497f89da451b1a1fbbc2c2ca87824024dad85f80f5516b1e4342d3dd
+  languageName: node
+  linkType: hard
+
 "gatsby-graphiql-explorer@npm:^3.2.0":
   version: 3.2.0
   resolution: "gatsby-graphiql-explorer@npm:3.2.0"
@@ -8479,21 +8502,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-gatsby-cloud@npm:^5.2.0":
-  version: 5.2.0
-  resolution: "gatsby-plugin-gatsby-cloud@npm:5.2.0"
+"gatsby-plugin-gatsby-cloud@npm:^5.3.1":
+  version: 5.3.1
+  resolution: "gatsby-plugin-gatsby-cloud@npm:5.3.1"
   dependencies:
     "@babel/runtime": ^7.15.4
     fs-extra: ^10.1.0
-    gatsby-core-utils: ^4.2.0
-    gatsby-telemetry: ^4.2.0
+    gatsby-core-utils: ^4.3.1
+    gatsby-telemetry: ^4.3.1
     kebab-hash: ^0.1.2
     lodash: ^4.17.21
     webpack-assets-manifest: ^5.1.0
   peerDependencies:
     gatsby: ^5.0.0-next
     webpack: "*"
-  checksum: cfb56f48b851259c297b1fb1db391176a744301f04d7709bf156936a9d01f01331c8df5b25f0c22dc1b4acecfd2687420936a4a55703d314addc862ece894987
+  checksum: 66a373e4e35e0de0b93fba873ea54e275a83ee7209530a57ed60a0cdc68ca5688430fc133e81bd3ffb9f77417d4993f33128bd14a19607ec3d4352bc0401c2a8
   languageName: node
   linkType: hard
 
@@ -8741,7 +8764,7 @@ __metadata:
     babel-preset-gatsby: ^3.2.0
     gatsby: ^5.2.0
     gatsby-plugin-canonical-urls: ^5.3.0
-    gatsby-plugin-gatsby-cloud: ^5.2.0
+    gatsby-plugin-gatsby-cloud: ^5.3.1
     gatsby-plugin-image: ^3.2.0
     gatsby-plugin-manifest: ^5.2.0
     gatsby-plugin-offline: ^6.2.0
@@ -8780,6 +8803,26 @@ __metadata:
     lodash: ^4.17.21
     node-fetch: ^2.6.7
   checksum: 5cc89af5a369ed75bbe0aeaf0e72ddf39ba700904dabd98b87c996f4ae81d88abd6d00ed2395166d3ae2d034e5e1f68a075b4527cff9821ea750b4d75f24e99a
+  languageName: node
+  linkType: hard
+
+"gatsby-telemetry@npm:^4.3.1":
+  version: 4.3.1
+  resolution: "gatsby-telemetry@npm:4.3.1"
+  dependencies:
+    "@babel/code-frame": ^7.14.0
+    "@babel/runtime": ^7.15.4
+    "@turist/fetch": ^7.2.0
+    "@turist/time": ^0.0.2
+    boxen: ^4.2.0
+    configstore: ^5.0.1
+    fs-extra: ^10.1.0
+    gatsby-core-utils: ^4.3.1
+    git-up: ^7.0.0
+    is-docker: ^2.2.1
+    lodash: ^4.17.21
+    node-fetch: ^2.6.7
+  checksum: 340f7817a54ad92d33a6c8b8a679c751585214125b79d05d556d754741ab9b9975a1760c06d529e04bed478d11aaf3d043103203aba3134bdb4695dd7d7d105e
   languageName: node
   linkType: hard
 

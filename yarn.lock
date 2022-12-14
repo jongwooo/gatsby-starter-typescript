@@ -5047,6 +5047,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"babel-plugin-remove-graphql-queries@npm:^5.3.1":
+  version: 5.3.1
+  resolution: "babel-plugin-remove-graphql-queries@npm:5.3.1"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+    "@babel/types": ^7.15.4
+    gatsby-core-utils: ^4.3.1
+  peerDependencies:
+    "@babel/core": ^7.0.0
+    gatsby: ^5.0.0-next
+  checksum: d8ba4423b96f474005e9f48244ec47dc583aa59af7f5c5a1b810647fe450ea61a80523ad802a5c3d5b758f681c78fa2ee9db6f6f8dfe781222ba89c42950db3b
+  languageName: node
+  linkType: hard
+
 "babel-plugin-syntax-object-rest-spread@npm:^6.8.0":
   version: 6.13.0
   resolution: "babel-plugin-syntax-object-rest-spread@npm:6.13.0"
@@ -8677,6 +8691,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-plugin-typescript@npm:^5.3.1":
+  version: 5.3.1
+  resolution: "gatsby-plugin-typescript@npm:5.3.1"
+  dependencies:
+    "@babel/core": ^7.15.5
+    "@babel/plugin-proposal-nullish-coalescing-operator": ^7.14.5
+    "@babel/plugin-proposal-numeric-separator": ^7.14.5
+    "@babel/plugin-proposal-optional-chaining": ^7.14.5
+    "@babel/preset-typescript": ^7.15.0
+    "@babel/runtime": ^7.15.4
+    babel-plugin-remove-graphql-queries: ^5.3.1
+  peerDependencies:
+    gatsby: ^5.0.0-next
+  checksum: 1ae22eff47e818f2d9caf367f180061f4c39ac6e60338393e64c25965c7f8dcf743d66dffc00240642aa1fc8d9f7ccf4e8938632e884b068d624a750df009736
+  languageName: node
+  linkType: hard
+
 "gatsby-plugin-utils@npm:^4.2.0":
   version: 4.2.0
   resolution: "gatsby-plugin-utils@npm:4.2.0"
@@ -8771,7 +8802,7 @@ __metadata:
     gatsby-plugin-robots-txt: ^1.8.0
     gatsby-plugin-sharp: ^5.2.0
     gatsby-plugin-sitemap: ^6.2.0
-    gatsby-plugin-typescript: ^5.2.0
+    gatsby-plugin-typescript: ^5.3.1
     gatsby-source-filesystem: ^5.2.0
     gatsby-transformer-sharp: ^5.2.0
     identity-obj-proxy: ^3.0.0

@@ -8599,9 +8599,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-sharp@npm:^5.3.1":
-  version: 5.3.1
-  resolution: "gatsby-plugin-sharp@npm:5.3.1"
+"gatsby-plugin-sharp@npm:^5.3.2":
+  version: 5.3.2
+  resolution: "gatsby-plugin-sharp@npm:5.3.2"
   dependencies:
     "@babel/runtime": ^7.15.4
     async: ^3.2.4
@@ -8617,7 +8617,7 @@ __metadata:
     sharp: ^0.31.2
   peerDependencies:
     gatsby: ^5.0.0-next
-  checksum: 678a74244beaae92a05f216f6a19dbfb97a76cf8ade764859ab16b132c7ad1b3f0a6f65655b76444ebcb87222b682e18cce786f8364105de8357fba2473d6590
+  checksum: 5b365a9649764588f5dbfdf7fd62d7b91856b26863389c9afd8e608a4d88b85eb77d4f567bbe355de78850c5e10f8764a0953d68ffa543e1faf1ce017eae8b0b
   languageName: node
   linkType: hard
 
@@ -8746,7 +8746,7 @@ __metadata:
     gatsby-plugin-manifest: ^5.3.1
     gatsby-plugin-offline: ^6.3.1
     gatsby-plugin-robots-txt: ^1.8.0
-    gatsby-plugin-sharp: ^5.3.1
+    gatsby-plugin-sharp: ^5.3.2
     gatsby-plugin-sitemap: ^6.3.1
     gatsby-plugin-typescript: ^5.3.1
     gatsby-source-filesystem: ^5.3.1

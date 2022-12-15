@@ -8497,9 +8497,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-image@npm:^3.3.1":
-  version: 3.3.1
-  resolution: "gatsby-plugin-image@npm:3.3.1"
+"gatsby-plugin-image@npm:^3.3.2":
+  version: 3.3.2
+  resolution: "gatsby-plugin-image@npm:3.3.2"
   dependencies:
     "@babel/code-frame": ^7.14.0
     "@babel/parser": ^7.15.5
@@ -8527,7 +8527,7 @@ __metadata:
       optional: true
     gatsby-source-filesystem:
       optional: true
-  checksum: 11bced6d3a3d6f7091a485ce7c76be4b2da72a8470b3b54a1a9519ee13c6cefa24217e55b024e642ee593b058e1e1862e6f1b6c56fcec438f73e3c0b0b884831
+  checksum: 7b8ab1360b71967adaa4e1306b31e7a74984380f24181920d0304a599dee160c132847d2d676fc0c67cc4feae2fa4d1408efae59278f61935fc1b094ef4f771d
   languageName: node
   linkType: hard
 
@@ -8742,7 +8742,7 @@ __metadata:
     gatsby: ^5.3.1
     gatsby-plugin-canonical-urls: ^5.3.0
     gatsby-plugin-gatsby-cloud: ^5.3.1
-    gatsby-plugin-image: ^3.3.1
+    gatsby-plugin-image: ^3.3.2
     gatsby-plugin-manifest: ^5.3.1
     gatsby-plugin-offline: ^6.3.1
     gatsby-plugin-robots-txt: ^1.8.0

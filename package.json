@@ -30,7 +30,7 @@
   },
   "packageManager": "yarn@3.3.1",
   "dependencies": {
-    "gatsby": "^5.3.2",
+    "gatsby": "^5.3.3",
     "gatsby-plugin-canonical-urls": "^5.3.0",
     "gatsby-plugin-gatsby-cloud": "^5.3.1",
     "gatsby-plugin-image": "^3.3.2",

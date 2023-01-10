@@ -2943,7 +2943,7 @@ __metadata:
   dependencies:
     "@lezer/common": ^0.15.7
     "@lezer/lr": ^0.15.4
-    json5: ^2.2.1
+    json5: ^2.2.2
   checksum: a30eda9eb02db5213b7aa2dc3c688257884a8969849ffa5a3a7c64c5f2a1cfed06691d94f02b37294a3a3b9efe7f88ee6b86c9ef20a799af54807ff2de2d253e
   languageName: node
   linkType: hard
@@ -10945,16 +10945,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json5@npm:^2.1.2, json5@npm:^2.2.0, json5@npm:^2.2.1":
-  version: 2.2.1
-  resolution: "json5@npm:2.2.1"
-  bin:
-    json5: lib/cli.js
-  checksum: 74b8a23b102a6f2bf2d224797ae553a75488b5adbaee9c9b6e5ab8b510a2fc6e38f876d4c77dea672d4014a44b2399e15f2051ac2b37b87f74c0c7602003543b
-  languageName: node
-  linkType: hard
-
-"json5@npm:^2.2.2":
+"json5@npm:^2.1.2, json5@npm:^2.2.0, json5@npm:^2.2.2":
   version: 2.2.3
   resolution: "json5@npm:2.2.3"
   bin:
@@ -15534,7 +15525,7 @@ __metadata:
     bs-logger: 0.x
     fast-json-stable-stringify: 2.x
     jest-util: ^29.0.0
-    json5: ^2.2.1
+    json5: ^2.2.2
     lodash.memoize: 4.x
     make-error: 1.x
     semver: 7.x

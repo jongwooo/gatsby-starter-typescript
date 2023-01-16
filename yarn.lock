@@ -8730,7 +8730,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-parcel-config@npm:^1.4.0":
+"gatsby-parcel-config@npm:1.4.0":
   version: 1.4.0
   resolution: "gatsby-parcel-config@npm:1.4.0"
   dependencies:
@@ -9023,7 +9023,7 @@ __metadata:
     "@types/react-test-renderer": ^18.0.0
     babel-jest: ^29.3.1
     babel-preset-gatsby: ^3.4.0
-    gatsby: ^5.4.0
+    gatsby: ^5.4.1
     gatsby-plugin-canonical-urls: ^5.4.0
     gatsby-plugin-gatsby-cloud: ^5.4.0
     gatsby-plugin-image: ^3.4.0
@@ -9098,9 +9098,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby@npm:^5.4.0":
-  version: 5.4.0
-  resolution: "gatsby@npm:5.4.0"
+"gatsby@npm:^5.4.1":
+  version: 5.4.1
+  resolution: "gatsby@npm:5.4.1"
   dependencies:
     "@babel/code-frame": ^7.18.6
     "@babel/core": ^7.20.7
@@ -9188,7 +9188,7 @@ __metadata:
     gatsby-legacy-polyfills: ^3.4.0
     gatsby-link: ^5.4.0
     gatsby-page-utils: ^3.4.0
-    gatsby-parcel-config: ^1.4.0
+    gatsby-parcel-config: 1.4.0
     gatsby-plugin-page-creator: ^5.4.0
     gatsby-plugin-typescript: ^5.4.0
     gatsby-plugin-utils: ^4.4.0
@@ -9276,7 +9276,7 @@ __metadata:
       optional: true
   bin:
     gatsby: ./cli.js
-  checksum: dcfaa210d2a210df5cca36d1e80d450b27f8cc9fed8ce3e5bff8d3d872cd9d8bc74b50ec2c431fa4bf681c5cf8003b6b1b779669444760d19361285dbb99f59a
+  checksum: 56f4ca1e89e83466b58394b17a10847768987f68c1a6b20f8d9bd18382c7074a983cb7b2715d1d6a858e53bd14fc35b2bfa5ee599c2d258dbbe4ac4eef20f72e
   languageName: node
   linkType: hard
 

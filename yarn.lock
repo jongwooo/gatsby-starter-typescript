@@ -8510,6 +8510,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fs-extra@npm:^11.1.0":
+  version: 11.1.0
+  resolution: "fs-extra@npm:11.1.0"
+  dependencies:
+    graceful-fs: ^4.2.0
+    jsonfile: ^6.0.1
+    universalify: ^2.0.0
+  checksum: 5ca476103fa1f5ff4a9b3c4f331548f8a3c1881edaae323a4415d3153b5dc11dc6a981c8d1dd93eec8367ceee27b53f8bd27eecbbf66ffcdd04927510c171e7f
+  languageName: node
+  linkType: hard
+
 "fs-extra@npm:^4.0.2":
   version: 4.0.3
   resolution: "fs-extra@npm:4.0.3"
@@ -8682,6 +8693,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-core-utils@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "gatsby-core-utils@npm:4.5.0"
+  dependencies:
+    "@babel/runtime": ^7.20.7
+    ci-info: 2.0.0
+    configstore: ^5.0.1
+    fastq: ^1.13.0
+    file-type: ^16.5.3
+    fs-extra: ^11.1.0
+    got: ^11.8.5
+    hash-wasm: ^4.9.0
+    import-from: ^4.0.0
+    lmdb: 2.5.3
+    lock: ^1.1.0
+    node-object-hash: ^2.3.10
+    proper-lockfile: ^4.1.2
+    resolve-from: ^5.0.0
+    tmp: ^0.2.1
+    xdg-basedir: ^4.0.0
+  checksum: 8186857b34ea5280d7b76f3f1876427ccd70e327b095326fb263a65a1ccab9838bc007c1d0114aef038f7dddd992358624e8a467ca5f5555495920e14c0b1142
+  languageName: node
+  linkType: hard
+
 "gatsby-graphiql-explorer@npm:^3.4.0":
   version: 3.4.0
   resolution: "gatsby-graphiql-explorer@npm:3.4.0"
@@ -8815,18 +8850,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-manifest@npm:^5.4.0":
-  version: 5.4.0
-  resolution: "gatsby-plugin-manifest@npm:5.4.0"
+"gatsby-plugin-manifest@npm:^5.5.0":
+  version: 5.5.0
+  resolution: "gatsby-plugin-manifest@npm:5.5.0"
   dependencies:
     "@babel/runtime": ^7.20.7
-    gatsby-core-utils: ^4.4.0
-    gatsby-plugin-utils: ^4.4.0
+    gatsby-core-utils: ^4.5.0
+    gatsby-plugin-utils: ^4.5.0
     semver: ^7.3.8
     sharp: ^0.31.3
   peerDependencies:
     gatsby: ^5.0.0-next
-  checksum: 3b473b50bd3c574803f61aead8a962a676bf16e9607658503c47bd50a3b326fc6bf04ec6741c43760ea44feed2d666818f514a9f2fc9de0d6a368bbef4bb82aa
+  checksum: ca001fcfcb98cdc3afc2d6a745cbc1bdcdf8296106eaeb4f50f01e636d3677caafa98642fdf627e76fdb723e948c8d044b82955a9da9c687c79c2569293461b5
   languageName: node
   linkType: hard
 
@@ -8958,6 +8993,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-plugin-utils@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "gatsby-plugin-utils@npm:4.5.0"
+  dependencies:
+    "@babel/runtime": ^7.20.7
+    fastq: ^1.13.0
+    fs-extra: ^11.1.0
+    gatsby-core-utils: ^4.5.0
+    gatsby-sharp: ^1.5.0
+    graphql-compose: ^9.0.10
+    import-from: ^4.0.0
+    joi: ^17.7.0
+    mime: ^3.0.0
+  peerDependencies:
+    gatsby: ^5.0.0-next
+    graphql: ^16.0.0
+  checksum: 2edfad50d3dba1ad8c60b9dbfc0ecb7b8b3062ffb8ecb86914b4023fcb69ea00025c1a40e4adcd9a8ecfc49f8d5f338fcd7790f8c3f7b11d99367b8ca7762177
+  languageName: node
+  linkType: hard
+
 "gatsby-react-router-scroll@npm:^6.4.0":
   version: 6.4.0
   resolution: "gatsby-react-router-scroll@npm:6.4.0"
@@ -8990,6 +9045,16 @@ __metadata:
     "@types/sharp": ^0.31.0
     sharp: ^0.31.3
   checksum: 916a57e1f5799ebf3639e159141196c2229fed7a96d04d414d3f67add1bae2cd18bf5f58b884cf19acd310da2a7093a7cdf06c930e7e59bbdba88d39d99016bf
+  languageName: node
+  linkType: hard
+
+"gatsby-sharp@npm:^1.5.0":
+  version: 1.5.0
+  resolution: "gatsby-sharp@npm:1.5.0"
+  dependencies:
+    "@types/sharp": ^0.31.0
+    sharp: ^0.31.3
+  checksum: 03c6f52ddc0c8c45f41b2593cf3f59cd1693e5549fdafacc1d4e12f810be632d0a4a173737682f67de46d848d08da1eedf0b482aa98c9795c976d485c8af124e
   languageName: node
   linkType: hard
 
@@ -9027,7 +9092,7 @@ __metadata:
     gatsby-plugin-canonical-urls: ^5.4.0
     gatsby-plugin-gatsby-cloud: ^5.4.0
     gatsby-plugin-image: ^3.4.0
-    gatsby-plugin-manifest: ^5.4.0
+    gatsby-plugin-manifest: ^5.5.0
     gatsby-plugin-offline: ^6.4.0
     gatsby-plugin-robots-txt: ^1.8.0
     gatsby-plugin-sharp: ^5.4.0
@@ -9762,6 +9827,13 @@ __metadata:
   dependencies:
     function-bind: ^1.1.1
   checksum: b9ad53d53be4af90ce5d1c38331e712522417d017d5ef1ebd0507e07c2fbad8686fffb8e12ddecd4c39ca9b9b47431afbb975b8abf7f3c3b82c98e9aad052792
+  languageName: node
+  linkType: hard
+
+"hash-wasm@npm:^4.9.0":
+  version: 4.9.0
+  resolution: "hash-wasm@npm:4.9.0"
+  checksum: b8734247fb7f69941f6564179dd891b7de21aa5877b9e32a5c6d777c2ab45cf5a6b021ade2b0156ec780ac41188486d571d9d526ef8206dda1ad306c81112a8a
   languageName: node
   linkType: hard
 

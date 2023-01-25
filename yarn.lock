@@ -8510,6 +8510,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fs-extra@npm:^11.1.0":
+  version: 11.1.0
+  resolution: "fs-extra@npm:11.1.0"
+  dependencies:
+    graceful-fs: ^4.2.0
+    jsonfile: ^6.0.1
+    universalify: ^2.0.0
+  checksum: 5ca476103fa1f5ff4a9b3c4f331548f8a3c1881edaae323a4415d3153b5dc11dc6a981c8d1dd93eec8367ceee27b53f8bd27eecbbf66ffcdd04927510c171e7f
+  languageName: node
+  linkType: hard
+
 "fs-extra@npm:^4.0.2":
   version: 4.0.3
   resolution: "fs-extra@npm:4.0.3"
@@ -8679,6 +8690,30 @@ __metadata:
     tmp: ^0.2.1
     xdg-basedir: ^4.0.0
   checksum: 4f3634f727e6ed953c62e0500831b46aa974ef1281b03690b893e0f4d6d15891ce1dfe17e59137b1cecbc7726fb3744f96c1fdfdad462bb0ec1af6bb9d79dd17
+  languageName: node
+  linkType: hard
+
+"gatsby-core-utils@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "gatsby-core-utils@npm:4.5.0"
+  dependencies:
+    "@babel/runtime": ^7.20.7
+    ci-info: 2.0.0
+    configstore: ^5.0.1
+    fastq: ^1.13.0
+    file-type: ^16.5.3
+    fs-extra: ^11.1.0
+    got: ^11.8.5
+    hash-wasm: ^4.9.0
+    import-from: ^4.0.0
+    lmdb: 2.5.3
+    lock: ^1.1.0
+    node-object-hash: ^2.3.10
+    proper-lockfile: ^4.1.2
+    resolve-from: ^5.0.0
+    tmp: ^0.2.1
+    xdg-basedir: ^4.0.0
+  checksum: 8186857b34ea5280d7b76f3f1876427ccd70e327b095326fb263a65a1ccab9838bc007c1d0114aef038f7dddd992358624e8a467ca5f5555495920e14c0b1142
   languageName: node
   linkType: hard
 
@@ -8958,6 +8993,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-plugin-utils@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "gatsby-plugin-utils@npm:4.5.0"
+  dependencies:
+    "@babel/runtime": ^7.20.7
+    fastq: ^1.13.0
+    fs-extra: ^11.1.0
+    gatsby-core-utils: ^4.5.0
+    gatsby-sharp: ^1.5.0
+    graphql-compose: ^9.0.10
+    import-from: ^4.0.0
+    joi: ^17.7.0
+    mime: ^3.0.0
+  peerDependencies:
+    gatsby: ^5.0.0-next
+    graphql: ^16.0.0
+  checksum: 2edfad50d3dba1ad8c60b9dbfc0ecb7b8b3062ffb8ecb86914b4023fcb69ea00025c1a40e4adcd9a8ecfc49f8d5f338fcd7790f8c3f7b11d99367b8ca7762177
+  languageName: node
+  linkType: hard
+
 "gatsby-react-router-scroll@npm:^6.4.0":
   version: 6.4.0
   resolution: "gatsby-react-router-scroll@npm:6.4.0"
@@ -8990,6 +9045,16 @@ __metadata:
     "@types/sharp": ^0.31.0
     sharp: ^0.31.3
   checksum: 916a57e1f5799ebf3639e159141196c2229fed7a96d04d414d3f67add1bae2cd18bf5f58b884cf19acd310da2a7093a7cdf06c930e7e59bbdba88d39d99016bf
+  languageName: node
+  linkType: hard
+
+"gatsby-sharp@npm:^1.5.0":
+  version: 1.5.0
+  resolution: "gatsby-sharp@npm:1.5.0"
+  dependencies:
+    "@types/sharp": ^0.31.0
+    sharp: ^0.31.3
+  checksum: 03c6f52ddc0c8c45f41b2593cf3f59cd1693e5549fdafacc1d4e12f810be632d0a4a173737682f67de46d848d08da1eedf0b482aa98c9795c976d485c8af124e
   languageName: node
   linkType: hard
 
@@ -9034,7 +9099,7 @@ __metadata:
     gatsby-plugin-sitemap: ^6.4.0
     gatsby-plugin-typescript: ^5.4.0
     gatsby-source-filesystem: ^5.4.0
-    gatsby-transformer-sharp: ^5.4.0
+    gatsby-transformer-sharp: ^5.5.0
     identity-obj-proxy: ^3.0.0
     jest: ^29.3.1
     prettier: ^2.8.3
@@ -9067,22 +9132,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-transformer-sharp@npm:^5.4.0":
-  version: 5.4.0
-  resolution: "gatsby-transformer-sharp@npm:5.4.0"
+"gatsby-transformer-sharp@npm:^5.5.0":
+  version: 5.5.0
+  resolution: "gatsby-transformer-sharp@npm:5.5.0"
   dependencies:
     "@babel/runtime": ^7.20.7
     bluebird: ^3.7.2
     common-tags: ^1.8.2
-    fs-extra: ^10.1.0
-    gatsby-plugin-utils: ^4.4.0
+    fs-extra: ^11.1.0
+    gatsby-plugin-utils: ^4.5.0
     probe-image-size: ^7.2.3
     semver: ^7.3.8
     sharp: ^0.31.3
   peerDependencies:
     gatsby: ^5.0.0-next
     gatsby-plugin-sharp: ^5.0.0-next
-  checksum: c974ea4d119cb66144a89d7cab94c9056de18bc8a06e5bd1f1ec0a4675d37b0af4b52afa2ca18b0970e676ec69c17233fe383757df6bf08105730ff5ff503d01
+  checksum: 7f1d8b56c831679906653a45380d7023591444c4eb77e5e559911d6a37ce8a0ee5bccb4428f55cbb45ae0341a12f6baa4380cbcfeb6a13c37c78bd21ea2182c0
   languageName: node
   linkType: hard
 
@@ -9762,6 +9827,13 @@ __metadata:
   dependencies:
     function-bind: ^1.1.1
   checksum: b9ad53d53be4af90ce5d1c38331e712522417d017d5ef1ebd0507e07c2fbad8686fffb8e12ddecd4c39ca9b9b47431afbb975b8abf7f3c3b82c98e9aad052792
+  languageName: node
+  linkType: hard
+
+"hash-wasm@npm:^4.9.0":
+  version: 4.9.0
+  resolution: "hash-wasm@npm:4.9.0"
+  checksum: b8734247fb7f69941f6564179dd891b7de21aa5877b9e32a5c6d777c2ab45cf5a6b021ade2b0156ec780ac41188486d571d9d526ef8206dda1ad306c81112a8a
   languageName: node
   linkType: hard
 

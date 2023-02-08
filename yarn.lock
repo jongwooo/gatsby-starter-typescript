@@ -2094,6 +2094,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.20.13":
+  version: 7.20.13
+  resolution: "@babel/runtime@npm:7.20.13"
+  dependencies:
+    regenerator-runtime: ^0.13.11
+  checksum: 09b7a97a05c80540db6c9e4ddf8c5d2ebb06cae5caf3a87e33c33f27f8c4d49d9c67a2d72f1570e796045288fad569f98a26ceba0c4f5fad2af84b6ad855c4fb
+  languageName: node
+  linkType: hard
+
 "@babel/runtime@npm:^7.20.7":
   version: 7.20.7
   resolution: "@babel/runtime@npm:7.20.7"
@@ -8673,6 +8682,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-core-utils@npm:^4.6.0":
+  version: 4.6.0
+  resolution: "gatsby-core-utils@npm:4.6.0"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    ci-info: 2.0.0
+    configstore: ^5.0.1
+    fastq: ^1.13.0
+    file-type: ^16.5.3
+    fs-extra: ^11.1.0
+    got: ^11.8.5
+    hash-wasm: ^4.9.0
+    import-from: ^4.0.0
+    lmdb: 2.5.3
+    lock: ^1.1.0
+    node-object-hash: ^2.3.10
+    proper-lockfile: ^4.1.2
+    resolve-from: ^5.0.0
+    tmp: ^0.2.1
+    xdg-basedir: ^4.0.0
+  checksum: ec3d78c7798aa35dd124e76a4806f965c9758a1d11c84c4b1e4fb38b704b6d97674383d0c5694955aac83f0dc35114575a884c1328e2f9674f3a699090776f9c
+  languageName: node
+  linkType: hard
+
 "gatsby-graphiql-explorer@npm:^3.5.0":
   version: 3.5.0
   resolution: "gatsby-graphiql-explorer@npm:3.5.0"
@@ -8821,13 +8854,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-offline@npm:^6.5.0":
-  version: 6.5.0
-  resolution: "gatsby-plugin-offline@npm:6.5.0"
+"gatsby-plugin-offline@npm:^6.6.0":
+  version: 6.6.0
+  resolution: "gatsby-plugin-offline@npm:6.6.0"
   dependencies:
-    "@babel/runtime": ^7.20.7
+    "@babel/runtime": ^7.20.13
     cheerio: ^1.0.0-rc.10
-    gatsby-core-utils: ^4.5.0
+    gatsby-core-utils: ^4.6.0
     glob: ^7.2.3
     idb-keyval: ^3.2.0
     lodash: ^4.17.21
@@ -8836,7 +8869,7 @@ __metadata:
     gatsby: ^5.0.0-next
     react: ^18.0.0 || ^0.0.0
     react-dom: ^18.0.0 || ^0.0.0
-  checksum: 72691610cae97f2345d66ca5491bf47079589eea96f95654b0a64ba59bb29c101c02b8a17b749c06224000fe13976dd8b25dde6a4e2fcb2d89c04f5b16835cf2
+  checksum: 8b8a7230bea0ad6fd60ba06d715ef244aedf979f8cddf0b4b67f6b6085d29fbc7dc63380f4d74c078c6beaa05e71213ba8294daefbf20eed9feba97c14dfc3d0
   languageName: node
   linkType: hard
 
@@ -9018,7 +9051,7 @@ __metadata:
     gatsby-plugin-gatsby-cloud: ^5.5.0
     gatsby-plugin-image: ^3.5.0
     gatsby-plugin-manifest: ^5.5.0
-    gatsby-plugin-offline: ^6.5.0
+    gatsby-plugin-offline: ^6.6.0
     gatsby-plugin-robots-txt: ^1.8.0
     gatsby-plugin-sharp: ^5.5.0
     gatsby-plugin-sitemap: ^6.5.0

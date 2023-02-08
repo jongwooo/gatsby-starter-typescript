@@ -32,7 +32,7 @@
   "dependencies": {
     "gatsby": "^5.5.0",
     "gatsby-plugin-canonical-urls": "^5.5.0",
-    "gatsby-plugin-gatsby-cloud": "^5.5.0",
+    "gatsby-plugin-gatsby-cloud": "^5.6.0",
     "gatsby-plugin-image": "^3.5.0",
     "gatsby-plugin-manifest": "^5.5.0",
     "gatsby-plugin-offline": "^6.5.0",

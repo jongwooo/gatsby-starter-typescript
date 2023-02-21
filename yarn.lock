@@ -8826,6 +8826,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-core-utils@npm:^4.7.0":
+  version: 4.7.0
+  resolution: "gatsby-core-utils@npm:4.7.0"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    ci-info: 2.0.0
+    configstore: ^5.0.1
+    fastq: ^1.13.0
+    file-type: ^16.5.3
+    fs-extra: ^11.1.0
+    got: ^11.8.5
+    hash-wasm: ^4.9.0
+    import-from: ^4.0.0
+    lmdb: 2.5.3
+    lock: ^1.1.0
+    node-object-hash: ^2.3.10
+    proper-lockfile: ^4.1.2
+    resolve-from: ^5.0.0
+    tmp: ^0.2.1
+    xdg-basedir: ^4.0.0
+  checksum: aeda55878fae68701050c539862ca71462328a2849a04098a90dd380de28f87ce9aa093b5228afa3194b1e89f2571e51dbafd04db1ba21cdc1420cbf92c5ca44
+  languageName: node
+  linkType: hard
+
 "gatsby-graphiql-explorer@npm:^3.6.0":
   version: 3.6.0
   resolution: "gatsby-graphiql-explorer@npm:3.6.0"
@@ -8974,13 +8998,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-offline@npm:^6.6.0":
-  version: 6.6.0
-  resolution: "gatsby-plugin-offline@npm:6.6.0"
+"gatsby-plugin-offline@npm:^6.7.0":
+  version: 6.7.0
+  resolution: "gatsby-plugin-offline@npm:6.7.0"
   dependencies:
     "@babel/runtime": ^7.20.13
     cheerio: ^1.0.0-rc.10
-    gatsby-core-utils: ^4.6.0
+    gatsby-core-utils: ^4.7.0
     glob: ^7.2.3
     idb-keyval: ^3.2.0
     lodash: ^4.17.21
@@ -8989,7 +9013,7 @@ __metadata:
     gatsby: ^5.0.0-next
     react: ^18.0.0 || ^0.0.0
     react-dom: ^18.0.0 || ^0.0.0
-  checksum: 8b8a7230bea0ad6fd60ba06d715ef244aedf979f8cddf0b4b67f6b6085d29fbc7dc63380f4d74c078c6beaa05e71213ba8294daefbf20eed9feba97c14dfc3d0
+  checksum: 35cc679017001771636a89976ff380834e0f8f278b8f2ab887c24f9c97d1323cdb5a625e06d4644e7bf9b6d0348a9261bb026f759075bbebb1a37099c7e3ec50
   languageName: node
   linkType: hard
 
@@ -9171,7 +9195,7 @@ __metadata:
     gatsby-plugin-gatsby-cloud: ^5.6.0
     gatsby-plugin-image: ^3.6.0
     gatsby-plugin-manifest: ^5.6.0
-    gatsby-plugin-offline: ^6.6.0
+    gatsby-plugin-offline: ^6.7.0
     gatsby-plugin-robots-txt: ^1.8.0
     gatsby-plugin-sharp: ^5.6.0
     gatsby-plugin-sitemap: ^6.6.0

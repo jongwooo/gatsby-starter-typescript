@@ -4661,6 +4661,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"babel-preset-gatsby@npm:^3.9.0":
+  version: 3.9.0
+  resolution: "babel-preset-gatsby@npm:3.9.0"
+  dependencies:
+    "@babel/plugin-proposal-class-properties": ^7.18.6
+    "@babel/plugin-proposal-nullish-coalescing-operator": ^7.18.6
+    "@babel/plugin-proposal-optional-chaining": ^7.20.7
+    "@babel/plugin-syntax-dynamic-import": ^7.8.3
+    "@babel/plugin-transform-classes": ^7.20.7
+    "@babel/plugin-transform-runtime": ^7.19.6
+    "@babel/plugin-transform-spread": ^7.20.7
+    "@babel/preset-env": ^7.20.2
+    "@babel/preset-react": ^7.18.6
+    "@babel/runtime": ^7.20.13
+    babel-plugin-dynamic-import-node: ^2.3.3
+    babel-plugin-macros: ^3.1.0
+    babel-plugin-transform-react-remove-prop-types: ^0.4.24
+    gatsby-core-utils: ^4.9.0
+    gatsby-legacy-polyfills: ^3.9.0
+  peerDependencies:
+    "@babel/core": ^7.11.6
+    core-js: ^3.0.0
+  checksum: dacb72b277512b7abcfef96efb0cc658ec632adbffd561da83cd7276e2018e5d37e1c9fb14911d20dc725597e7292ff640c4927edf78359ef3b07565efffe8c8
+  languageName: node
+  linkType: hard
+
 "babel-preset-jest@npm:^29.5.0":
   version: 29.5.0
   resolution: "babel-preset-jest@npm:29.5.0"
@@ -7594,6 +7620,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fs-extra@npm:^11.1.1":
+  version: 11.1.1
+  resolution: "fs-extra@npm:11.1.1"
+  dependencies:
+    graceful-fs: ^4.2.0
+    jsonfile: ^6.0.1
+    universalify: ^2.0.0
+  checksum: fb883c68245b2d777fbc1f2082c9efb084eaa2bbf9fddaa366130d196c03608eebef7fb490541276429ee1ca99f317e2d73e96f5ca0999eefedf5a624ae1edfd
+  languageName: node
+  linkType: hard
+
 "fs-extra@npm:^4.0.2":
   version: 4.0.3
   resolution: "fs-extra@npm:4.0.3"
@@ -7767,6 +7804,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-core-utils@npm:^4.9.0":
+  version: 4.9.0
+  resolution: "gatsby-core-utils@npm:4.9.0"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    ci-info: 2.0.0
+    configstore: ^5.0.1
+    fastq: ^1.15.0
+    file-type: ^16.5.4
+    fs-extra: ^11.1.1
+    got: ^11.8.6
+    hash-wasm: ^4.9.0
+    import-from: ^4.0.0
+    lmdb: 2.5.3
+    lock: ^1.1.0
+    node-object-hash: ^2.3.10
+    proper-lockfile: ^4.1.2
+    resolve-from: ^5.0.0
+    tmp: ^0.2.1
+    xdg-basedir: ^4.0.0
+  checksum: 2721b8f910d7b4619720f4735af3784d518cfb7850e42358f882f1e11453673e9bc4b2bcf4f8032a6f3b6a3255d4f071af31945b7f9fe8f9cff20dd4b92ae318
+  languageName: node
+  linkType: hard
+
 "gatsby-graphiql-explorer@npm:^3.8.0":
   version: 3.8.0
   resolution: "gatsby-graphiql-explorer@npm:3.8.0"
@@ -7781,6 +7842,16 @@ __metadata:
     "@babel/runtime": ^7.20.13
     core-js-compat: 3.9.0
   checksum: b28a50b5dd9da49b67f80c438abe3f9a5f9cecc8719e22483e6336368302847d517b24e73f7d8caa495b46094ae4969550b1c65677eb2a1cf79791de77ccc033
+  languageName: node
+  linkType: hard
+
+"gatsby-legacy-polyfills@npm:^3.9.0":
+  version: 3.9.0
+  resolution: "gatsby-legacy-polyfills@npm:3.9.0"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    core-js-compat: 3.9.0
+  checksum: aacd412b1bca4d176d306e834e979375b798d4b04eac1db0c4a96d1e57e8c01078bbab7bb2cfa5da8f53f6c4984c2dce4448aea40b6949d7143495ef74dce5c2
   languageName: node
   linkType: hard
 
@@ -8106,7 +8177,7 @@ __metadata:
     "@types/react": ^18.0.37
     "@types/react-test-renderer": ^18.0.0
     babel-jest: ^29.5.0
-    babel-preset-gatsby: ^3.8.0
+    babel-preset-gatsby: ^3.9.0
     gatsby: ^5.8.1
     gatsby-plugin-canonical-urls: ^5.8.0
     gatsby-plugin-gatsby-cloud: ^5.8.0

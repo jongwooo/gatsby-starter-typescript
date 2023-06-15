@@ -4810,6 +4810,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"babel-plugin-remove-graphql-queries@npm:^5.11.0":
+  version: 5.11.0
+  resolution: "babel-plugin-remove-graphql-queries@npm:5.11.0"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    "@babel/types": ^7.20.7
+    gatsby-core-utils: ^4.11.0
+  peerDependencies:
+    "@babel/core": ^7.0.0
+    gatsby: ^5.0.0-next
+  checksum: d2952dbba93b27d5edd64efe71a929ae3fab216f4b9ef02df5a98d316dc822d5b1cc3fb879ace42a0fe6089df17749fce2c15d4fb16dd85661b1e45a2d7eb073
+  languageName: node
+  linkType: hard
+
 "babel-plugin-syntax-object-rest-spread@npm:^6.8.0":
   version: 6.13.0
   resolution: "babel-plugin-syntax-object-rest-spread@npm:6.13.0"
@@ -8043,6 +8057,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-core-utils@npm:^4.11.0":
+  version: 4.11.0
+  resolution: "gatsby-core-utils@npm:4.11.0"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    ci-info: 2.0.0
+    configstore: ^5.0.1
+    fastq: ^1.15.0
+    file-type: ^16.5.4
+    fs-extra: ^11.1.1
+    got: ^11.8.6
+    hash-wasm: ^4.9.0
+    import-from: ^4.0.0
+    lmdb: 2.5.3
+    lock: ^1.1.0
+    node-object-hash: ^2.3.10
+    proper-lockfile: ^4.1.2
+    resolve-from: ^5.0.0
+    tmp: ^0.2.1
+    xdg-basedir: ^4.0.0
+  checksum: b7119119c8726af7ec2fd6a03bf6edd93d8c43fd8b4441be1e5cc356ed6d21f762d7e21a535128652b48326427d66a444544af967a9769a003c614213c07747e
+  languageName: node
+  linkType: hard
+
 "gatsby-graphiql-explorer@npm:^3.10.0":
   version: 3.10.0
   resolution: "gatsby-graphiql-explorer@npm:3.10.0"
@@ -8299,6 +8337,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-plugin-typescript@npm:^5.11.0":
+  version: 5.11.0
+  resolution: "gatsby-plugin-typescript@npm:5.11.0"
+  dependencies:
+    "@babel/core": ^7.20.12
+    "@babel/plugin-proposal-nullish-coalescing-operator": ^7.18.6
+    "@babel/plugin-proposal-numeric-separator": ^7.18.6
+    "@babel/plugin-proposal-optional-chaining": ^7.20.7
+    "@babel/preset-typescript": ^7.18.6
+    "@babel/runtime": ^7.20.13
+    babel-plugin-remove-graphql-queries: ^5.11.0
+  peerDependencies:
+    gatsby: ^5.0.0-next
+  checksum: e20f571b263a283993a03203b4631f50e0446b152e13b1e769a92fbe3b9c49d1c78c3dd41bea5bcb45df7b2926e7785b8ddf62678c1617a545b1fb4182ec2f8a
+  languageName: node
+  linkType: hard
+
 "gatsby-plugin-utils@npm:^4.10.0":
   version: 4.10.0
   resolution: "gatsby-plugin-utils@npm:4.10.0"
@@ -8391,7 +8446,7 @@ __metadata:
     gatsby-plugin-robots-txt: ^1.8.0
     gatsby-plugin-sharp: ^5.10.0
     gatsby-plugin-sitemap: ^6.10.0
-    gatsby-plugin-typescript: ^5.10.0
+    gatsby-plugin-typescript: ^5.11.0
     gatsby-source-filesystem: ^5.10.0
     gatsby-transformer-sharp: ^5.10.0
     identity-obj-proxy: ^3.0.0

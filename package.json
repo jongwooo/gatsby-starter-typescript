@@ -31,7 +31,7 @@
   "packageManager": "yarn@3.4.1",
   "dependencies": {
     "gatsby": "^5.10.0",
-    "gatsby-plugin-canonical-urls": "^5.10.0",
+    "gatsby-plugin-canonical-urls": "^5.11.0",
     "gatsby-plugin-gatsby-cloud": "^5.10.0",
     "gatsby-plugin-image": "^3.10.0",
     "gatsby-plugin-manifest": "^5.10.0",

@@ -4,6 +4,13 @@ updates:
     directory: "/"
     schedule:
       interval: daily
+    groups:
+      gatsby:
+        patterns:
+          - "*gatsby*"
+      types:
+        patterns:
+          - "@types/*"
   - package-ecosystem: github-actions
     directory: "/"
     schedule:

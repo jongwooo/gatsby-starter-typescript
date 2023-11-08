@@ -3704,13 +3704,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:^29.5.7":
-  version: 29.5.7
-  resolution: "@types/jest@npm:29.5.7"
+"@types/jest@npm:^29.5.8":
+  version: 29.5.8
+  resolution: "@types/jest@npm:29.5.8"
   dependencies:
     expect: ^29.0.0
     pretty-format: ^29.0.0
-  checksum: e28624ccb0ef1255a03fbbb4b5bc3e5cbcdc450d39e0739985ff679b124198f808c38c8c3e67859c6efc0e848196deeb8cfed028e12a821c511dfc1112a2d6e9
+  checksum: ca8438a5b4c098c8c023e9d5b279ea306494a1d0b5291cfb498100fa780377145f068b2a021d545b0398bbe0328dcc37044dd3aaf3c6c0fe9b0bef7b46a63453
   languageName: node
   linkType: hard
 
@@ -3828,12 +3828,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-test-renderer@npm:^18.0.5":
-  version: 18.0.5
-  resolution: "@types/react-test-renderer@npm:18.0.5"
+"@types/react-test-renderer@npm:^18.0.6":
+  version: 18.0.6
+  resolution: "@types/react-test-renderer@npm:18.0.6"
   dependencies:
     "@types/react": "*"
-  checksum: c0932fa6c99dc84df3f8132f728f4fad7aeb05ea667f1524384c083e62b90e3a91107d89d2e91b03bd0ca02cc6bbec8cfe9669c29a8394ae990af549ca16c0a3
+  checksum: cf93c17099f6322f7a5e4b2a191c496647883dfc15e0ef23a3c476ffe41730522019f18731da73a186db1407ac83cb6ef42126e50d5fc8c927b34a771942f7a1
   languageName: node
   linkType: hard
 
@@ -3848,14 +3848,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.2.36":
-  version: 18.2.36
-  resolution: "@types/react@npm:18.2.36"
+"@types/react@npm:^18.2.37":
+  version: 18.2.37
+  resolution: "@types/react@npm:18.2.37"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 561fab294117983f3d245a63730bcffb423fc2a1b0f27d20c870abc5d980bc206a74f741cb11b5170fcdf0e747ac05448369cd930fbf345f74ed567f8fef3a9e
+  checksum: 2d2599f1a09e4f678509161fea8baeaf76d21deee460f4f3ccc1ca431ebe85f896d7d0b906127de17e97ed57240cec61955eb97d0b5d9cbf4e97fd6620b1acdb
   languageName: node
   linkType: hard
 
@@ -8554,9 +8554,9 @@ __metadata:
   resolution: "gatsby-starter-typescript@workspace:."
   dependencies:
     "@babel/preset-typescript": ^7.23.2
-    "@types/jest": ^29.5.7
-    "@types/react": ^18.2.36
-    "@types/react-test-renderer": ^18.0.5
+    "@types/jest": ^29.5.8
+    "@types/react": ^18.2.37
+    "@types/react-test-renderer": ^18.0.6
     babel-jest: ^29.7.0
     babel-preset-gatsby: ^3.12.1
     gatsby: ^5.12.9

@@ -47,7 +47,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@babel/preset-typescript": "^7.23.2",
+    "@babel/preset-typescript": "^7.23.3",
     "@types/jest": "^29.5.8",
     "@types/react": "^18.2.37",
     "@types/react-test-renderer": "^18.0.6",

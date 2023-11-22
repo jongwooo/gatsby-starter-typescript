@@ -48,9 +48,9 @@
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.23.3",
-    "@types/jest": "^29.5.9",
+    "@types/jest": "^29.5.10",
     "@types/react": "^18.2.38",
-    "@types/react-test-renderer": "^18.0.6",
+    "@types/react-test-renderer": "^18.0.7",
     "babel-jest": "^29.7.0",
     "babel-preset-gatsby": "^3.12.1",
     "identity-obj-proxy": "^3.0.0",

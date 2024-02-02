@@ -3717,13 +3717,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:^29.5.11":
-  version: 29.5.11
-  resolution: "@types/jest@npm:29.5.11"
+"@types/jest@npm:^29.5.12":
+  version: 29.5.12
+  resolution: "@types/jest@npm:29.5.12"
   dependencies:
     expect: "npm:^29.0.0"
     pretty-format: "npm:^29.0.0"
-  checksum: 798f4c89407d9457bea1256de74c26f2b279f6c789c0e3311cd604cc75cdab333b9a29b00c51b0090d31abdf11cc788b4103282851a653bef6daf72edf97eef2
+  checksum: 312e8dcf92cdd5a5847d6426f0940829bca6fe6b5a917248f3d7f7ef5d85c9ce78ef05e47d2bbabc40d41a930e0e36db2d443d2610a9e3db9062da2d5c904211
   languageName: node
   linkType: hard
 
@@ -3861,14 +3861,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.2.50":
-  version: 18.2.50
-  resolution: "@types/react@npm:18.2.50"
+"@types/react@npm:^18.2.51":
+  version: 18.2.51
+  resolution: "@types/react@npm:18.2.51"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 86ff44b88d09119df86e84d86a685fbc1f5371a45b65fbc891eb12bda420138405342a23bd52ee48d71d8adb9c6815bbb2a501ef153b031388922c65d150fb94
+  checksum: af2935027172ea40695b90b02e98520a097160fa8517f6022e2e2cf8518017e0b84991cc34ee8d72cd91dcb7c5404784d4bada7a4836edf2727c3d6703c16ff8
   languageName: node
   linkType: hard
 
@@ -8549,8 +8549,8 @@ __metadata:
   resolution: "gatsby-starter-typescript@workspace:."
   dependencies:
     "@babel/preset-typescript": "npm:^7.23.3"
-    "@types/jest": "npm:^29.5.11"
-    "@types/react": "npm:^18.2.50"
+    "@types/jest": "npm:^29.5.12"
+    "@types/react": "npm:^18.2.51"
     "@types/react-test-renderer": "npm:^18.0.7"
     babel-jest: "npm:^29.7.0"
     babel-preset-gatsby: "npm:^3.13.1"

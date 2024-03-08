@@ -3861,14 +3861,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.2.62":
-  version: 18.2.63
-  resolution: "@types/react@npm:18.2.63"
+"@types/react@npm:^18.2.64":
+  version: 18.2.64
+  resolution: "@types/react@npm:18.2.64"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 49d7e556e9daa921384a094bfaeb6d1c455423cdcd87e1efb75015d83f91e5b7dbe2e179c47229bba051539ee541f98e8e6e4e9aa63af6edcdb178ae15c2f915
+  checksum: e82bd16660030c9aabdb5027bb9bf69570a90813e4a894c17bfb288978c2b80251def5754e455d72aa3485d99136e1b11b694f78c586e5918e10b3bb09b91b3c
   languageName: node
   linkType: hard
 
@@ -8563,7 +8563,7 @@ __metadata:
   dependencies:
     "@babel/preset-typescript": "npm:^7.23.3"
     "@types/jest": "npm:^29.5.12"
-    "@types/react": "npm:^18.2.62"
+    "@types/react": "npm:^18.2.64"
     "@types/react-test-renderer": "npm:^18.0.7"
     babel-jest: "npm:^29.7.0"
     babel-preset-gatsby: "npm:^3.13.1"

@@ -10,15 +10,15 @@
     "typescript",
     "jest",
     "netlify",
-    "prettier"
+    "biome"
   ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "build:incremental": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --check \"**/*.{css,js,jsx,json,md,ts,tsx,yml}\"",
-    "format:fix": "prettier --write \"**/*.{css,js,jsx,json,md,ts,tsx,yml}\"",
+    "format": "biome format ./",
+    "format:fix": "biome format --write ./",
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
@@ -48,6 +48,7 @@
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.24.1",
+    "@biomejs/biome": "1.8.3",
     "@types/jest": "^29.5.12",
     "@types/react": "^18.3.3",
     "@types/react-test-renderer": "^18.3.0",
@@ -55,7 +56,6 @@
     "babel-preset-gatsby": "^3.13.2",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^29.7.0",
-    "prettier": "^3.2.5",
     "react-test-renderer": "^18.3.1",
     "ts-jest": "^29.1.4",
     "typescript": "^5.4.5"
